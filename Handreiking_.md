@@ -10,17 +10,16 @@
     - [Wmebv samengevat in vier punten](#wmebv-samengevat-in-vier-punten)
     - [Wat zijn 'Formele berichten'?](#wat-zijn-formele-berichten)
     - [Wmebv schematisch weergegeven](#wmebv-schematisch-weergegeven)
-  - [Project: e-formulieren en notificaties in het licht van de Wmebv](#project-e-formulieren-en-notificaties-in-het-licht-van-de-wmebv)
+  - [Theorie: E-formulieren en notificaties](#theorie-e-formulieren-en-notificaties)
     - [Ontwerpcriteria voor E-formulieren en Notificaties](#ontwerpcriteria-voor-e-formulieren-en-notificaties)
-      - [Best Practices](#best-practices)
-        - [Gebruiksvriendelijke Identificatieprocessen](#gebruiksvriendelijke-identificatieprocessen)
-        - [Periodieke Evaluatie en Bijwerking](#periodieke-evaluatie-en-bijwerking)
-      - [Praktische adviezen voor het toetsen van e-formulieren en notificaties](#praktische-adviezen-voor-het-toetsen-van-e-formulieren-en-notificaties)
-    - [Praktische Toepassing: Onze Aanpak in de praktijk](#praktische-toepassing-onze-aanpak-in-de-praktijk)
-      - [Project Achtergrond en Doelstelling](#project-achtergrond-en-doelstelling)
+    - [Praktische adviezen voor het ontwerpen en toetsen van e-formulieren en notificaties](#praktische-adviezen-voor-het-ontwerpen-en-toetsen-van-e-formulieren-en-notificaties)
+  - [Praktijk: Generiek e-formulier op basis van NL Design System](#praktijk-generiek-e-formulier-op-basis-van-nl-design-system)
+    - [Project achtergrond en doelstelling](#project-achtergrond-en-doelstelling)
+    - [NL Design System](#nl-design-system)
       - [Wat is NL Design System](#wat-is-nl-design-system)
-      - [Hoe gebruik je NL Design System als ontwerper en developer?](#hoe-gebruik-je-nl-design-system-als-ontwerper-en-developer)
-      - [Het ontwerp van het generieke formulier in Figma](#het-ontwerp-van-het-generieke-formulier-in-figma)
+      - [Hoe NL Design System te gebruiken](#hoe-nl-design-system-te-gebruiken)
+    - [Ontwerp Generieke e-formulier in Figma met NL Design System](#ontwerp-generieke-e-formulier-in-figma-met-nl-design-system)
+      - [Het scenario: Gemeente in gebreken stellen](#het-scenario-gemeente-in-gebreken-stellen)
       - [Development en Code Snippets (Verwijzing)](#development-en-code-snippets-verwijzing)
       - [Usability Tests en Resultaten](#usability-tests-en-resultaten)
   - [Geleerde Lessen en Aanbevelingen](#geleerde-lessen-en-aanbevelingen)
@@ -28,6 +27,7 @@
     - [Links](#links)
     - [Stappenplan implementatie Wmebv](#stappenplan-implementatie-wmebv)
     - [Overige interessante bronnen](#overige-interessante-bronnen)
+  - [Appendix A: Het scenario in schermen](#appendix-a-het-scenario-in-schermen)
 
 ## Introductie
 
@@ -92,7 +92,7 @@ Allereerst is het belangrijk om te weten dat de Wmebv over processen of beter ge
 
 De aspecten van de Wmebv zijn op te delen in onder andere een aantal blokken met daarin fasen waarin een formeel bericht zich bevindt:
 
-**Blok 1 - Binnenkomende formele berichten:**
+**Blok 1 - Binnenkomende formele berichten:**\
 Dit blok is onder te verdelen in twee fasen:
 
 **Fase 1 - Voor ontvangst:**\
@@ -131,7 +131,8 @@ De Wmebv regelt dat ingevulde gegevens van een e-formulier terug-getoond moeten 
 - inzage via een MijnOmgeving
 - het toezenden van het afschrift
 
-**_Ontwerp-tip: Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten._**
+>_**Wmebv-ontwerptip:**\
+Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten._
 
  Tot slot dient de gemeente bewijslast te hebben, dat betekent dat een systeem moet zijn waarin gegevens gelogd worden.
 
@@ -145,7 +146,9 @@ Dit blok is niet verder onderverdeeld in fasen. Bij dit blok geld dat de Wmebv r
 - De gemeente heeft een inspanningsverplichting om het juiste e-mailadres te achterhalen
 - Notificaties moeten op andere wijze verzonden kunnen worden
 
-**_Ontwerp-tip: Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten._**
+In het volgende hoofdstuk wordt nog iets dieper ingegaan op notificaties.\
+>_**Wmebv-ontwerptip:**\
+Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten._
 
 De gemeente heeft tevens een bewijslast en moet het volgende kunnen bewijzen:
 
@@ -164,9 +167,7 @@ Denk hierbij aan:
 - Bij Passende ondersteuning is maatwerk niet verplicht
 - Beleid over passende ondersteuning opstellen en publiceren op de website (bijvoorbeeld regels of een (uiteraard toegankelijke) handreiking)
 
-## Project: e-formulieren en notificaties in het licht van de Wmebv
-
-In dit deel van de handreiking wordt toegelicht hoe er in samenwerking met NL Design System een generiek e-formulier is ontworpen, gebouwd en getest. Voorafgaand aan de bouw heeft deskresearch plaatsgevonden om ontwerpcriteria te verzamelen, niet alleen algemene ontwerpcriteria maar ook criteria die voortvloeien uit de Wmebv.
+## Theorie: E-formulieren en notificaties
 
 ### Ontwerpcriteria voor E-formulieren en Notificaties
 
@@ -196,7 +197,7 @@ AVG-regeltjes waar rekening mee moet worden gehouden:
 - Verzend e-formulieren over versleutelde verbindingen. \*\*
 - Registreer verwerking in verwerkingsregister \*\*
 
-**Wmebv ontwerpcriteria:**
+**Wmebv ontwerpcriteria:**\
 Op zich zijn onderstaande punten niet perse e-formulier ontwerpcriteria, echter moet er wel rekening mee gehouden worden tijdens het ontwerp van de communicatiestroom waar het e-formulier of notificatie onderdeel vanuit maakt.
 
 - Toon of verstuur (indien mogelijk) een ontvangstbevestiging
@@ -204,77 +205,76 @@ Op zich zijn onderstaande punten niet perse e-formulier ontwerpcriteria, echter 
 
 Deze lijst is onder andere geput uit de door de VNG aangeboden [Toolkit Meten en Verbeteren van Webformulieren.](https://vng.nl/kennisbank-dienstverlening-gemeenten/toolkit-meten-en-verbeteren-van-webformulieren)
 
-> Bied een gedetailleerd overzicht van de specifieke eisen van de Wmebv die van toepassing zijn op e-formulieren en notificaties.
-> Koppel deze eisen aan specifieke elementen in het generieke formulierontwerp en leg uit hoe deze worden ingevuld.
-> (Inzoom op e-forms Wmebv)
+Voor meer gedetailleerde informatie over notificaties wordt verwezen naar [de bijdrage over notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer) Waar onder andere toelichting gegeven wordt op de nieuwe notificatie templates die door hen ontwikkeld zijn en nieuwe technische mogelijkheden zoals een nieuwe variabele voor een 'einddatum handelingstermijn'.
 
-#### Best Practices
+### Praktische adviezen voor het ontwerpen en toetsen van e-formulieren en notificaties
 
-##### Gebruiksvriendelijke Identificatieprocessen
+Bij het toetsen van formulieren en notificaties Wmebv is het van belang om te zorgen dat deze voldoen aan de eisen van de wet, met een focus op digitale toegankelijkheid en gebruiksvriendelijkheid. Hier zijn enkele specifieke punten waaraan aandacht besteed zou moeten worden:
 
-Besteed aandacht aan de gebruiksvriendelijkheid van het identificatieproces. Zorg ervoor dat gebruikersinterventies intuïtief zijn en dat de stappen helder zijn gepresenteerd. Minimaliseer de kans op fouten en voorzie duidelijke instructies.
+**Digitale Toegankelijkheid:**\
+Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor digitale toegankelijkheid, zoals vastgesteld in de [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). Hierbij gaat het onder andere om het gebruik van leesbare tekst, voldoende contrast, toegankelijk voor schermlezers en de mogelijkheid om het formulier met toetsenbord te bedienen.
 
-##### Periodieke Evaluatie en Bijwerking
+**Gebruiksvriendelijkheid (Usability):**\
+Test de formulieren en notificaties op algemene gebruiksvriendelijkheid. Zijn ze intuïtief en gemakkelijk te begrijpen voor de gebruiker? Zorg ervoor dat de taal eenvoudig en duidelijk is, en dat gebruikers gemakkelijk door het formulier of de notificatie kunnen navigeren. Voor meer informatie wordt verwezen naar [de aanbevolen richtlijnen voor taalgebruik](https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1) van Dienst Publiek en Communicatie van het Ministerie van Algemene Zaken.
 
-Identificatie- en authenticatiemethoden evolueren voortdurend. Het is raadzaam om periodiek de gebruikte methoden te evalueren en, indien nodig, bij te werken om te blijven voldoen aan de laatste standaarden en beveiligingseisen.
+**Rechtsgeldigheid en Authenticatie:**\
+Controleer of de gebruikte elektronische handtekeningen en authenticatiemethoden voldoen aan de [wettelijke vereisten voor rechtsgeldigheid](https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/digitale-veiligheid-en-identiteit) . Zorg ervoor dat er passende maatregelen zijn genomen om de identiteit van de gebruiker te verifiëren.
 
-#### Praktische adviezen voor het toetsen van e-formulieren en notificaties
+**Privacybescherming:**\
+Wees alert op privacykwesties bij het verzamelen en verwerken van persoonsgegevens. Zorg ervoor dat de formulieren en notificaties voldoen aan de Algemene Verordening Gegevensbescherming (AVG) en andere relevante privacywetgeving. Raadpleeg hiervoor de [uitgebreide informatie over privacybescherming](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens)  op de website van de Rijksoverheid.
 
-Bij het toetsen van formulieren en notificaties in het kader van de Wet modernisering elektronisch bestuurlijk verkeer (Wmebv) is het van belang om te zorgen dat deze voldoen aan de eisen van de wet, met een focus op digitale toegankelijkheid en gebruiksvriendelijkheid. Hier zijn enkele specifieke punten waaraan je aandacht zou moeten besteden:
+**Veiligheid:**\
+Controleer of er voldoende [beveiligingsmaatregelen](https://www.cip-overheid.nl/) zijn genomen, met name bij het verzenden van gevoelige informatie. Beveiligde verbindingen (HTTPS) en versleuteling van gegevens zijn hierbij belangrijk.
 
-1. Digitale Toegankelijkheid
-Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor digitale toegankelijkheid, zoals vastgesteld in de Web Content Accessibility Guidelines (WCAG). Hierbij gaat het onder andere om het gebruik van leesbare tekst, voldoende contrast, en de mogelijkheid om het formulier met toetsenbord te bedienen.
+**Aanpasbaarheid en Responsiviteit**\
+Zorg ervoor dat formulieren en notificaties goed werken op verschillende apparaten en schermformaten. Responsiviteit of adaptiviteit is essentieel voor een goede gebruikerservaring op zowel desktops als mobiele apparaten. [Een interessant artikel over het verschil tussen Responsive en Adaptive ontwerp.](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
 
-2. Gebruiksvriendelijkheid (Usability)
-Test de formulieren en notificaties op algemene gebruiksvriendelijkheid. Zijn ze intuïtief en gemakkelijk te begrijpen voor de gebruiker? Zorg ervoor dat de taal eenvoudig en duidelijk is, en dat gebruikers gemakkelijk door het formulier of de notificatie kunnen navigeren.
+**Duidelijke Instructies en Hulpfuncties:**\
+Bied duidelijke instructies bij het invullen van formulieren en zorg voor eventuele hulpfuncties indien nodig. Gebruikers moeten gemakkelijk de benodigde informatie kunnen vinden en begrijpen hoe ze het formulier moeten invullen. Nielsen Norman Group schreef een [helder artikel over Help en Documentation.](https://www.nngroup.com/articles/help-and-documentation/)
 
-3. Rechtsgeldigheid en Authenticatie
-Controleer of de gebruikte elektronische handtekeningen en authenticatiemethoden voldoen aan de wettelijke vereisten voor rechtsgeldigheid. Zorg ervoor dat er passende maatregelen zijn genomen om de identiteit van de gebruiker te verifiëren.
+**Notificatie-Inhoud en Timing:**\
+Bij notificaties is het belangrijk dat de inhoud relevant, begrijpelijk en tijdig is. Vermijd overbodige informatie en zorg ervoor dat de notificatie op het juiste moment wordt verstuurd. Hierbij geldt voor de Wmebv dat de notificatie binnen 48 uur na plaatsing van het formele bericht in het systeem voor gegevensverwerking aan de geadresseerde van het bericht worden gestuurd en dat de inhoud aan een aantal eisen moet voldoen, zoals:
 
-4. Privacybescherming
-Wees alert op privacykwesties bij het verzamelen en verwerken van persoonsgegevens. Zorg ervoor dat de formulieren en notificaties voldoen aan de Algemene Verordening Gegevensbescherming (AVG) en andere relevante privacywetgeving.
+- De aard en rechtsgevolg van de boodschap moet vermeld worden.
+- Er moet duidelijk vermeld worden dat er een reactie van de geadresseerde verwacht wordt (bijv: betalen, informatie verstrekken).
+- Wanneer een bericht een termijn bevat waarbinnen de geadresseerde moet reageren, moet deze termijn ook vermeld worden in de notificatie.
 
-5. Veiligheid
-Controleer of er voldoende beveiligingsmaatregelen zijn genomen, met name bij het verzenden van gevoelige informatie. Beveiligde verbindingen (HTTPS) en versleuteling van gegevens zijn hierbij belangrijk.
+Dit en meer is uitgebreid terug te lezen is in de [bijdrage over notificaties en de Wmebv](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer) van Logius.
 
-6. Aanpasbaarheid en Responsiviteit
-Zorg ervoor dat formulieren en notificaties goed werken op verschillende apparaten en schermformaten. Responsiviteit is essentieel voor een goede gebruikerservaring op zowel desktops als mobiele apparaten.
+**Testen met Gebruikers:**\
+Voer usability-tests uit met echte gebruikers om inzicht te krijgen in hun ervaring en eventuele pijnpunten te identificeren. Dit kan helpen bij het verbeteren van de algehele gebruikerservaring. Het is aan te raden gebruik te maken van instanties die gespecialiseerd zijn in het uitvoeren van Usability tests, zoals [Stichting Accessibility](https://www.accessibility.nl/) of [Valsplat](https://valsplat.nl/).
 
-7. Duidelijke Instructies en Hulpfuncties
-Bied duidelijke instructies bij het invullen van formulieren en zorg voor eventuele hulpfuncties indien nodig. Gebruikers moeten gemakkelijk de benodigde informatie kunnen vinden en begrijpen hoe ze het formulier moeten invullen.
+## Praktijk: Generiek e-formulier op basis van NL Design System
 
-8. Notificatie-Inhoud en Timing
-Bij notificaties is het belangrijk dat de inhoud relevant, begrijpelijk en tijdig is. Vermijd overbodige informatie en zorg ervoor dat de notificatie op het juiste moment wordt verstuurd.
-
-9. Testen met Gebruikers
-Voer usability-tests uit met echte gebruikers om inzicht te krijgen in hun ervaring en eventuele pijnpunten te identificeren. Dit kan helpen bij het verbeteren van de algehele gebruikerservaring.
-
-10. Naleving van Wmebv-specifieke Eisen
-Controleer of de formulieren en notificaties specifieke eisen van de Wmebv naleven.
-
-### Praktische Toepassing: Onze Aanpak in de praktijk
-
-#### Project Achtergrond en Doelstelling
+### Project achtergrond en doelstelling
 
 Om een praktisch voorbeeld te kunnen geven van een generiek e-formulier is er samengewerkt met NL Design System om binnen een relatief korte tijd te komen tot een generiek voorbeeld formulier dat inzage verschaft in het ontwerpproces en de bouw met behulp van NL Design System componenten. Er is gekozen voor een generiek formulier, omdat dit het meest laagdrempelige formulier is wat wellicht initieel ingezet kan worden, met name voor die processen die nog niet over een (specifiek) formulier beschikken.
 
-Om de use case van dit generieke formulier te ondersteunen is nagedacht over een scenario waarin dit formulier gebruikt zou kunnen worden. Om het scenario aan te laten sluiten bij op de Wmebv, is in overleg met een jurist gekomen tot een situatie waarbij de fictieve burger (Persona: Jeroen van Drouwen) de gemeente waarin hij woonachtig is (Gemeente Voorbeeld) in gebreken te stellen.
-
-**Het scenario:**
-
-- Scenario flow
+### NL Design System
 
 #### Wat is NL Design System
 
-- Algemeen verhaal NLDS
-  
-#### Hoe gebruik je NL Design System als ontwerper en developer?
+Niemand kan beter uitleggen wat NL Design System is dan NL Design System zelf, daarom de omschrijving zoals die op de website staat.
+
+>"Samen maken we de digitale dienstverlening van de overheid toegankelijk, inclusief en gebruiksvriendelijk.
+>
+>Een design system lijkt op basis van de naam vooral over ontwerp te gaan, maar het is eigenlijk een brede aanpak om makkelijker consistente, toegankelijke en gebruiksvriendelijke websites en applicaties te maken.
+>
+>Dat doet het kernteam niet alleen, maar samen met ontwerpers, ontwikkelaars, content schrijvers en andere experts uit verschillende organisaties.
+>
+>- Gebouwd en gebruikt door de community
+>- Platform en huisstijl onafhankelijk
+>- Uitbreidbaar en publiek beschikbaar"
+>
+>Bron: [NL Design System](https://nldesignsystem.nl/)
+
+#### Hoe NL Design System te gebruiken
 
 NL Design componenten met een eigen huisstijl.
 Korte beschrijving waarom/het nut Design Token en de samenwerking dev en designer en voor meer info hier:
 [NL Design Tokens](https://www.nldesignsystem.nl/meedoen/design-tokens/)
 
-#### Het ontwerp van het generieke formulier in Figma
+### Ontwerp Generieke e-formulier in Figma met NL Design System
 
 - Hoe tot stand gekomen?
   - Community van ontwerpers Forms Forms Forms, Design Open Hour
@@ -283,7 +283,54 @@ Korte beschrijving waarom/het nut Design Token en de samenwerking dev en designe
 - schematische flows scenario
 - Voorbeeldschermen Gemeente voorbeeld
 
-[Gemeente Voorbeeld Live demo](https://www.gemeentevoorbeeld.nl/wmebv)
+>>> Bied een gedetailleerd overzicht van de specifieke eisen van de Wmebv die van toepassing zijn op e-formulieren en notificaties.
+> Koppel deze eisen aan specifieke elementen in het generieke formulierontwerp en leg uit hoe deze worden ingevuld.
+> (Inzoom op e-forms Wmebv)
+
+#### Het scenario: Gemeente in gebreken stellen
+
+Om de use case van dit generieke formulier te ondersteunen en te kunnen testen is nagedacht over een scenario waarin dit formulier gebruikt zou kunnen worden. Om het scenario aan te laten sluiten bij op de Wmebv, is in overleg met een jurist gekomen tot een situatie waarbij de fictieve burger (een persona) Jeroen van Drouwen de gemeente waarin hij woonachtig is (Gemeente Voorbeeld) in gebreken stelt. Het in gebreken stellen heeft een juridisch gevolg, dus valt deze 'vraag aan de gemeente'in de categorie 'Formele berichten' en is de Wmebv dus van toepassing.
+
+![Scenario schematisch weergegeven](.media/Scenario%20schematisch.svg)
+
+- Taak 1: Gemeente in gebreken stellen.\
+Beschrijving: Stel u voor dat u 8 weken geleden een aanvraag hebt gedaan voor bijstandsuitkering en u hebt nog steeds niets gehoord. U gaat naar de website van de gemeente en zoekt contact.\
+
+**(Scherm A)** U besluit het ‘Vraag het de gemeente’-formulier in te willen vullen.\
+>_**Wmebv-ontwerptip:**\
+Dit scherm is onderverdeeld in een aantal typen contact.'Vraag'. 'Klacht','Melding openbare ruimte en overlast' en een 'Idee of voorstel'. Door te trachten de vraag in een vroeg stadium van de berichtenstroom te categoriseren als formeel of niet-formeel bericht, kunnen deze processen in een vroeg stadium herkend en behandeld worden waarbij al dan niet rekening gehouden moet worden met de Wmebv. Er zijn overigens gemeenten die adviseren het onderscheid niet maken en alles behandelen als formeel bericht om zo ten alle tijden te voldoen aan de Wmebv. Gemeente Barneveld licht dit toe in de [Kennissessie Juridische Aspecten van 9 oktober 2023](https://vng.nl/wmebv-webinars-en-kennissessies)._
+
+**(Scherm B)** Nadat u een korte uitleg hebt kunnen lezen over het gekozen formulier,
+
+**(Scherm C)** krijgt u de optie om al dan niet in te loggen.
+
+Indien er wordt gekozen voor inloggen, dan worden de formulierstappen 1 t/m 4 van het E_Lang scenario gevolgd en anders de stappen van E_Kort. (Hierna aangeduid met E_x.)
+
+- Formulier stap 1 (E_x 1/4):\
+Bericht invoeren:
+Beschrijving: We willen graag dat u het volgende bericht invult.\
+ *Beste meneer of mevrouw,\
+  Ik heb meer dan 8 weken geleden een aanvraag voor bijstandsuitkering gedaan maar ik heb nog steeds niets gehoord. Volgens mij had u allang op mijn aanvraag moeten beslissen.\
+  Met vriendelijke groet, Jeroen van Drouwen*
+
+- Formulier stap 2 (E_x 2/4):\
+Persoonsgegevens invoeren:
+Beschrijving: Nu willen we dat je persoonsgegevens invoert. Voer alsjeblieft de volgende persoonsgegevens in.
+*Naam: Jeroen van Drouwen\
+E-mailadres: <j.vandrouwen@EenEmailAdres.com>\
+Telefoonnummer: 0001112223334*
+
+- Formulier stap 3 (E_x 3/4):\
+Beschrijving: Controleer de ingevulde gegevens en verzend het formulier. (E_x 4/4).
+Na het verzenden zou je een e-mailnotificatie moeten ontvangen waarin wordt bevestigd dat de gemeente jouw vragen en opmerkingen heeft ontvangen. Bekijk de e-mail en vertel ons wat je ervan vindt.
+
+- Taak 4 (buiten formulier):\
+Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma scherm, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de Usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.\
+Beschrijving: Gmail openen en de ontvangstbevestiging lezen en indien er via de ingelogde route is gegaan, dan luidt het scenario dat er binnen 48 uur een reactie is binnen gekomen via Gmail. Jeroen van Drouwen open zijn email en ziet een mailtje van de gemeente waarin aangegeven wordt dat hij via zijn MijnOmgeving de reactie van de gemeente kan inzien.
+
+Voor screenshots van de Figma uitwerking zie [Appendix A](#appendix-a-het-scenario-in-schermen),\
+of bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)\
+Bekijk ook de [live demo van het scenario](https://www.gemeentevoorbeeld.nl/wmebv).
 
 #### Development en Code Snippets (Verwijzing)
 
@@ -298,6 +345,8 @@ Korte beschrijving waarom/het nut Design Token en de samenwerking dev en designe
 - uitkomsten usability tests
 - maak gebruik van de community, vraag feedback (Design Open Hour)
 - test altijd het ontwerp!
+- landingspagina met een stapje ervoor zodat het juiste spoor aangedaan kan worden
+- adviezen over labeling (refereren aan Form Form Form) "Indienen" of "Uploaden" (OVER TAAL)Uit onderzoeken blijkt duidelijke overheidscommunicatie niet duidelijk [communicatie](https://vng.nl/projecten/duidelijke-overheidscommunicatie)
 
 ## Aanvullende Bronnen en Links voor Verdieping
 
@@ -330,4 +379,70 @@ Voor meer informatie over een mogelijke aanpak voor de implementatie van de Wmeb
 ### Overige interessante bronnen
 
 - links
-  
+
+## Appendix A: Het scenario in schermen
+
+In sectie [Scenario](# scenario) is schematisch en tekstueel uitgelegd wel scenario is uitgewerkt voor het ontwerp en het testen van de generieke formulierschermen. Hieronder de screenshots van het Figma ontwerp.
+
+Figma ontwerp Scherm A:\
+Contact met de gemeente\
+![Scherm A](.media/Scherm%20A.png)
+
+Figma ontwerp Scherm B:\
+Uitleg over het formulier\
+![Scherm B](.media/Scherm%20B.png)
+
+Figma ontwerp Scherm C:\
+Inloggen ja of nee\
+![Scherm C](.media/Scherm%20C.png)
+
+Figma ontwerp Scherm E stap 1:\
+Uw vraag aan de gemeente\
+![Scherm E stap 1](./.media/Scherm%20E.png)
+
+Figma ontwerp Scherm E stap 2:\
+UW gegevens\
+![Scherm E stap 2](.media/Scherm%20E2.png)
+
+Figma ontwerp Scherm E stap 2 waarbij foutmeldingen zijn uitgewerkt:\
+![Scherm E stap 2](.media/Scherm%20E2foutmeldingen.png)
+
+Figma ontwerp Scherm E stap 3:\
+Controleer uw gegevens\
+![Scherm E stap 3](.media/Scherm%20E3.png)
+
+Figma ontwerp Scherm E stap 4:
+Uw vraag is met succes verstuurd
+![Scherm E stap 4](.media/Scherm%20E4.png)
+
+De volgende schermen zijn tijdens de usability test met behulp van Gmail en Figma gebruikt. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma scherm, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de Usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
+
+Figma ontwerp schermen Gmail voor scenario E_kort:
+
+Ontvangsbevestiging in de Inbox\
+![Gmail inbox](.media/E-mails_sc_kort.png)
+
+Ontvangsbevestiging inhoud emailtje\
+![Gmail ontvangst email](.media/E-mail%20reactie_sc_kort.png)
+
+Ontvangsbevestiging pdf met ingevulde gegevens\
+![Gmail bijlage pdf](.media/PDFje%20uit%20de%20mail.png)
+
+Figma ontwerp schermen Gmail voor scenario E_lang:
+
+Ontvangsbevestiging in de Inbox\
+![Gmail inbox](.media/E-mail%20reactie_sc_lang.png)
+
+Ontvangsbevestiging inhoud emailtje\
+![Gmail ontvangst email](.media/E-mails_sc_lang.png)
+
+Mijn Omgeving Overzichtscherm\
+![Gmail bijlage pdf](.media/LV_mijn-omgeving-berichten_sc_lang.png)
+
+Mijn Omgeving Mijn zaken overzicht\
+![Gmail bijlage pdf](.media/LV_mijn-omgeving-dashboard_sc_lang-1.png)
+
+Mijn Omgeving Uw vraag aan de gemeente zaak\
+![Gmail bijlage pdf](.media/LV_mijn-omgeving-berichten_sc_lang.png)
+
+Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)
