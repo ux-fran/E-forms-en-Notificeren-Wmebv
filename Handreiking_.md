@@ -34,9 +34,10 @@ Vereniging voor Nederlandse Gemeenten
   - [6.3. Aanpak van de praktijkopdracht](#63-aanpak-van-de-praktijkopdracht)
     - [6.3.1. Ontwerpen](#631-ontwerpen)
     - [6.3.2. Ontwikkelen](#632-ontwikkelen)
-    - [6.3.3. Het scenario en usability test script: Jeroen van Drouwen stelt de gemeente in gebreke](#633-het-scenario-en-usability-test-script-jeroen-van-drouwen-stelt-de-gemeente-in-gebreke)
-    - [6.3.4. Development en Code Snippets (Verwijzing)](#634-development-en-code-snippets-verwijzing)
-    - [6.3.5. Usability Tests en Resultaten](#635-usability-tests-en-resultaten)
+  - [6.4. Uitvoering ontwikkeling generiek e-formulier](#64-uitvoering-ontwikkeling-generiek-e-formulier)
+    - [6.4.1. Scenario en usability testscript: Jeroen van Drouwen stelt de gemeente in gebreke](#641-scenario-en-usability-testscript-jeroen-van-drouwen-stelt-de-gemeente-in-gebreke)
+    - [6.4.2. Development en Code Snippets (Verwijzing)](#642-development-en-code-snippets-verwijzing)
+    - [6.4.3. Usability Tests en Resultaten](#643-usability-tests-en-resultaten)
 - [7. Geleerde Lessen en Aanbevelingen](#7-geleerde-lessen-en-aanbevelingen)
 - [8. Aanvullende Bronnen en Links voor Verdieping](#8-aanvullende-bronnen-en-links-voor-verdieping)
   - [8.1. Stappenplan implementatie Wmebv](#81-stappenplan-implementatie-wmebv)
@@ -336,8 +337,9 @@ Korte beschrijving waarom/het nut Design Token en de samenwerking dev en designe
 [NL Design Tokens](https://www.nldesignsystem.nl/meedoen/design-tokens/)\
 
 ### 6.3.1. Ontwerpen
+
 <mark>
-- scenario bedenken 
+- scenario bedenken
 - schermen bedenken obv wat er in de community is  Community van ontwerpers Forms Forms Forms, Design Open Hour
 - Figma ontwerpen obv Voorbeeld bibliotheek
 - samenwerken (Comments) (Foto) (Designers, Developers, Accessibility experts)
@@ -351,7 +353,8 @@ Korte beschrijving waarom/het nut Design Token en de samenwerking dev en designe
 - zie live omgeving
 </mark>
 
-### 6.3.3. Het scenario en usability test script: Jeroen van Drouwen stelt de gemeente in gebreke
+## 6.4. Uitvoering ontwikkeling generiek e-formulier
+### 6.4.1. Scenario en usability testscript: Jeroen van Drouwen stelt de gemeente in gebreke
 
 Om de use case van dit generieke formulier te ondersteunen en te kunnen testen is nagedacht over een scenario waarin dit formulier gebruikt zou kunnen worden. Om het scenario aan te laten sluiten bij op de Wmebv, is in overleg met een jurist gekomen tot een situatie waarbij de fictieve burger (een persona) Jeroen van Drouwen de gemeente waarin hij woonachtig is (Gemeente Voorbeeld) in gebreken stelt. Het in gebreken stellen heeft een juridisch gevolg, dus valt deze 'vraag aan de gemeente'in de categorie 'Formele berichten' en is de Wmebv dus van toepassing. 
 Voor het ontwerp van de schermen is gebruik gemaakt van de design tool [Figma](https://www.figma.com/design/). Bekijk [hier de uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1) Bekijk ook de [live demo van de werkelijk geprogrammerde schermen](https://www.gemeentevoorbeeld.nl/wmebv).
@@ -363,11 +366,10 @@ Afbeelding: Schematische weergave van de user journey.
  Stelt u zich voor dat u 8 weken geleden een aanvraag hebt gedaan voor bijstandsuitkering en u hebt nog steeds niets gehoord. U gaat naar de website van de gemeente en zoekt contact.
 
 **Scherm A - Contact:** \
-U besluit het ‘Vraag het de gemeente’-formulier in te willen vullen.\
+U besluit het ‘Vraag het de gemeente’-formulier in te willen vullen.
 
 _**Wmebv-ontwerpadvies:**\
 Dit scherm is onderverdeeld in een aantal verschillende onderwerpen: 'Vraag', 'Klacht','Melding openbare ruimte en overlast' en een 'Idee of voorstel'. Door te proberen de vraag in een vroeg stadium van de berichtenstroom te categoriseren als formeel of niet-formeel bericht, kunnen deze processen in een vroeg stadium herkend en behandeld worden met in acht name van de Wmebv. Er zijn overigens gemeenten die adviseren het onderscheid niet maken en alles behandelen als formeel bericht om zo ten alle tijden te voldoen aan de Wmebv. Gemeente Barneveld licht dit bijvoorbeeld toe in de [Kennissessie Juridische Aspecten van 9 oktober 2023](https://vng.nl/wmebv-webinars-en-kennissessies)._\
-
 Scherm A: Contact met de gemeente\
 ![Scherm A](.media/SchermA.svg)
 <div style="page-break-after: always"></div>
@@ -459,11 +461,11 @@ Mijn Omgeving Uw vraag aan de gemeente zaak\
 
 Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)
 
-### 6.3.4. Development en Code Snippets (Verwijzing)
+### 6.4.2. Development en Code Snippets (Verwijzing)
 
 <mark>(To come op NL Design System website)</mark>
 
-### 6.3.5. Usability Tests en Resultaten
+### 6.4.3. Usability Tests en Resultaten
 
 <mark>(To come na de usability tests)</mark>
 
