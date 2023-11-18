@@ -53,6 +53,7 @@ Deze handreiking is bestemd voor ieder die meer te weten wil komen over het Wmeb
 ### Samenwerkingspartners
 
 Deze handreiking en de bijbehorende schermvoorbeelden zijn een samenwerking van VNGR met het NL Design System kernteam, (UX) designers uit de NL Design System Community en met name de UX designer van Gemeente Den Haag, waar al veel onderzoek gedaan is naar de gebruikersvriendelijkheid van notificaties.
+<div style="page-break-after: always"></div>
 
 ## Wet Modernisering Bestuurlijk Verkeer
 
@@ -89,8 +90,7 @@ Om toch in deze handreiking een idee te geven van de strekking van de Wmebv, wat
 Zie echter voor een zeer uitgebreide toelichting op de Wmebv de [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verkeer (Awb) 2023.](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2017/04/Handreiking-implementatie-Wet-modernisering-elektronisch-bestuurlijk-verkeer-2023.pdf) van het Ministerie van Binnenlandse Zaken.
 
 Allereerst is het belangrijk om te weten dat de Wmebv over processen of beter gezegd, communicatiestromen gaat. Communicatiestromen tussen burger en overheidsinstantie. De stroom van een formeel bericht kent een begin en een eind. De stroom verloopt in verschillende fasen. Een formeel bericht wordt geïnitieerd (Zie het schema: 'Voor ontvangst') en vervolgens verstuurd. Als het goed gaat, wordt het bericht ontvangen door de overheidsinstantie (Zie het schema: 'Na ontvangst'). Vervolgens wordt het bericht in behandeling genomen en tijdens de behandeling kunnen vervolgacties voor de burger of instantie voortvloeien. Deze acties worden uitgevoerd, gelogd en er wordt over gecommuniceerd (zie het schema: 'Uitgaande formele berichten'), net zolang tot de behandeling van de initiële vraag of de daaruit voortgevloeide vragen of acties afgehandeld zijn. Naast de ze digitale communicatiestroom van formele berichten tussen burger en instantie, regelt de Wmebv een zorgplicht die stelt dat er voor passende ondersteuning gezorgd moet worden voor de mensen die minder goed mee kunnen komen in de digitale wereld.\
-![Wmebv-schema.png](.media/img_7.png)
-
+![Wmebv-schema.png](.media/img_7.png)\
 De aspecten van de Wmebv zijn op te delen in onder andere een aantal blokken met daarin fasen waarin een formeel bericht zich bevindt:
 
 **Blok 1 - Binnenkomende formele berichten:**\
@@ -225,7 +225,7 @@ Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor [dig
   
   **_Tip voor een onderzoeksvraag:_**\
   _Wordt het formulier met een screen reader in de juiste volgorde voorgelezen?_\
-  ![Structuur formulier](.media/gestapelde%20velden.png)
+  ![Structuur formulier](.media/gestapeldeVelden.png)
 - Maak foutmeldingen visueel en tekstueel duidelijk. Leid de gebruiker naar de plek waar de fout opgelost moet worden.
 
   **_Tip voor een onderzoeksvraag:_**\
@@ -244,7 +244,7 @@ Bron: [https://www.toptal.com](https://www.toptal.com)
 
 Naast toegankelijk formulieren is het ook belangrijk de eventuele bijlagen in de vorm van documenten digitaal toegankelijk te maken. Zoals digitaal toegankelijke pdf's of afbeeldingen die voor mensen die blind of slechtziend is niet te ontcijferen zijn.
 
-- Overweeg om in plaats van pdf's, toegankelijke HTML te gebruiken indien de inhoud enkel bekeken dient te worden 
+- Overweeg om in plaats van pdf's, toegankelijke HTML te gebruiken indien de inhoud enkel bekeken dient te worden
 - Overweeg om [OpenDocument](https://opendocumentformat.org/guidance/accessibility/) te gebruiken voor pdf-formulieren die aanpasbaar moeten zijn.
 - Als er toch pdf gebruikt moet worden, zorg ervoor dat [Pdf's zo digitaal toegankelijk mogelijk](https://accessible-pdf.info/en/basics/) zijn en overweeg dan een digitaal toegankelijke versie van de inhoud, in bijvoorbeeld HTML, ernaast aan te bieden.
 - Onthoudt dat het makkelijker is om digitaal toegankelijke HTML of OpenDocument te maken dan een digitaal toegankelijke pdf.
@@ -329,7 +329,7 @@ Koppel deze eisen aan specifieke elementen in het generieke formulierontwerp en 
 
 Om de use case van dit generieke formulier te ondersteunen en te kunnen testen is nagedacht over een scenario waarin dit formulier gebruikt zou kunnen worden. Om het scenario aan te laten sluiten bij op de Wmebv, is in overleg met een jurist gekomen tot een situatie waarbij de fictieve burger (een persona) Jeroen van Drouwen de gemeente waarin hij woonachtig is (Gemeente Voorbeeld) in gebreken stelt. Het in gebreken stellen heeft een juridisch gevolg, dus valt deze 'vraag aan de gemeente'in de categorie 'Formele berichten' en is de Wmebv dus van toepassing.
 
-![Scenario schematisch weergegeven](.media/Scenario%20schematisch.svg)
+![Scenario schematisch weergegeven](.media/ScenarioSchematisch.svg)
 
 - Taak 1: Gemeente in gebreken stellen.\
 **Beschrijving:** Stel u voor dat u 8 weken geleden een aanvraag hebt gedaan voor bijstandsuitkering en u hebt nog steeds niets gehoord. U gaat naar de website van de gemeente en zoekt contact.\
@@ -434,41 +434,41 @@ In sectie [Scenario](# scenario) is schematisch en tekstueel uitgelegd wel scena
 
 Figma ontwerp Scherm A:\
 Contact met de gemeente\
-![Scherm A](.media/Scherm%20A.png)
+![Scherm A](.media/SchermA.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm B:\
 Uitleg over het formulier\
-![Scherm B](.media/Scherm%20B.png)
+![Scherm B](.media/SchermB.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm C:\
 Inloggen ja of nee\
-![Scherm C](.media/Scherm%20C.png)
+![Scherm C](.media/SchermC.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm E stap 1:\
 Uw vraag aan de gemeente\
-![Scherm E stap 1](./.media/Scherm%20E.png)
+![Scherm E stap 1](./.media/SchermE.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm E stap 2:\
 UW gegevens\
-![Scherm E stap 2](.media/Scherm%20E2.png)
+![Scherm E stap 2](.media/SchermE2.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm E stap 2 waarbij foutmeldingen zijn uitgewerkt:\
-![Scherm E stap 2](.media/Scherm%20E2foutmeldingen.png)
+![Scherm E stap 2](.media/SchermE2foutmeldingen.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm E stap 3:\
 Controleer uw gegevens\
-![Scherm E stap 3](.media/Scherm%20E3.png)
+![Scherm E stap 3](.media/SchermE3.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp Scherm E stap 4:
 Uw vraag is met succes verstuurd
-![Scherm E stap 4](.media/Scherm%20E4.png)
+![Scherm E stap 4](.media/SchermE4.png)
 <div style="page-break-after: always"></div>
 
 De volgende schermen zijn tijdens de usability test met behulp van Gmail en Figma gebruikt. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma scherm, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de Usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
@@ -480,17 +480,17 @@ Ontvangsbevestiging in de Inbox\
 <div style="page-break-after: always"></div>
 
 Ontvangsbevestiging inhoud emailtje\
-![Gmail ontvangst email](.media/E-mail%20reactie_sc_kort.png)
+![Gmail ontvangst email](.media/E-mail_reactie_sc_kort.png)
 <div style="page-break-after: always"></div>
 
 Ontvangsbevestiging pdf met ingevulde gegevens\
-![Gmail bijlage pdf](.media/PDFje%20uit%20de%20mail.png)
+![Gmail bijlage pdf](.media/PDFje_uit_de_mail.png)
 <div style="page-break-after: always"></div>
 
 Figma ontwerp schermen Gmail voor scenario E_lang:
 
 Ontvangsbevestiging in de Inbox\
-![Gmail inbox](.media/E-mail%20reactie_sc_lang.png)
+![Gmail inbox](.media/E-mail_reactie_sc_lang.png)
 <div style="page-break-after: always"></div>
 
 Ontvangsbevestiging inhoud emailtje\
