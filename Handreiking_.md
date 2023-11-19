@@ -528,7 +528,7 @@ Uw vraag is met succes verstuurd
 
 ![Scherm E stap 4](.media/SchermE4.svg)
 
-<mark>_**Ontwerpadvies 7**\
+<mark>_**Ontwerpadvies 8**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -539,7 +539,7 @@ Ontvangsbevestiging in de Inbox
 
 ![Gmail inbox](.media/E-mails_sc_kort.svg)
 
-<mark>_**Ontwerpadvies 8**\
+<mark>_**Ontwerpadvies 9**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -548,7 +548,7 @@ Ontvangsbevestiging inhoud emailtje
 
 ![Gmail ontvangst email](.media/E-mail%20reactie_sc_kort.svg)
 
-<mark>_**Ontwerpadvies 9**\
+<mark>_**Ontwerpadvies 10**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -557,7 +557,7 @@ Pdf met ingevulde gegevens\
 
 ![Gmail bijlage pdf](.media/PDFje_uit_de_mail.png)
 
-<mark>_**Ontwerpadvies 10**\
+<mark>_**Ontwerpadvies 11**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -568,7 +568,7 @@ Ontvangsbevestiging in de Inbox
 
 ![Gmail ontvangst email](.media/E-mails_sc_lang.svg)
 
-<mark>_**Ontwerpadvies 10**\
+<mark>_**Ontwerpadvies 12**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -577,7 +577,7 @@ Een email met een een notificatie dat er een reactie van de gemeente in de MijnO
 
 ![Gmail ontvangst email](.media/E-mail%20reactie_sc_lang.svg)
 
-<mark>_**Ontwerpadvies 11**\
+<mark>_**Ontwerpadvies 13**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -586,7 +586,7 @@ MijnOmgeving Overzichtscherm waar een zaak klaarstaat.
 
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)
 
-<mark>_**Ontwerpadvies 12**\
+<mark>_**Ontwerpadvies 14**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -595,7 +595,7 @@ Overzicht van alle zaken, in dit geval maar een.
 
 ![Gmail inbox](.media/LV_mijn-omgeving-dashboard_sc_lang-1.svg)
 
-<mark>_**Ontwerpadvies 13**\
+<mark>_**Ontwerpadvies 15**\
 _</mark>
 <div style="page-break-after: always"></div>
 
@@ -604,7 +604,7 @@ Scherm waarin de reactie van de gemeente te lezen is.
 
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-berichten_sc_lang.svg)
 
-<mark>_**Ontwerpadvies 14**\
+<mark>_**Ontwerpadvies 16**\
 _</mark>
 
 Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1) en bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv)
