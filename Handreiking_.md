@@ -465,106 +465,84 @@ De volgende schermen kunnen ook in de [VNG Wmebv Figma omgeving](https://www.fig
 Bij elk scherm zijn de ontwerpadviezen aangegeven. Deze adviezen zijn voortgekomen uit het usability onderzoek dat heeft plaatsgevonden op 16 en 17 november 2023.
 <div style="page-break-after: always"></div>
 
-**Scherm A - Contact:** \
-Een scherm met verschillende opties om contact te leggen met de gemeente.
+**Scherm A - Contact:** Een scherm met verschillende opties om contact te leggen met de gemeente.
 
 ![Scherm A](.media/SchermA.svg)
 
-_**Ontwerpadvies 1**\
-Dit scherm is onderverdeeld in een aantal verschillende onderwerpen: 'Vraag', 'Klacht','Melding openbare ruimte en overlast' en een 'Idee of voorstel'. Door te proberen de vraag in een vroeg stadium van de berichtenstroom te categoriseren als formeel of niet-formeel bericht, kunnen deze processen in een vroeg stadium herkend en behandeld worden met in acht name van de Wmebv. Er zijn overigens gemeenten die adviseren het onderscheid niet maken en alles behandelen als formeel bericht om zo ten alle tijden te voldoen aan de Wmebv. Gemeente Barneveld licht dit bijvoorbeeld toe in de [Kennissessie Juridische Aspecten van 9 oktober 2023](https://vng.nl/wmebv-webinars-en-kennissessies)._
+_**Ontwerpadvies 1:** Dit scherm is onderverdeeld in een aantal verschillende onderwerpen: 'Vraag', 'Klacht','Melding openbare ruimte en overlast' en een 'Idee of voorstel'. Door te proberen de vraag in een vroeg stadium van de berichtenstroom te categoriseren als formeel of niet-formeel bericht, kunnen deze processen in een vroeg stadium herkend en behandeld worden met in acht name van de Wmebv. Er zijn overigens gemeenten die adviseren het onderscheid niet maken en alles behandelen als formeel bericht om zo ten alle tijden te voldoen aan de Wmebv. Gemeente Barneveld licht dit bijvoorbeeld toe in de [Kennissessie Juridische Aspecten van 9 oktober 2023](https://vng.nl/wmebv-webinars-en-kennissessies)._
 
 <div style="page-break-after: always"></div>
 
-**Scherm B - Uitleg over het formulier**\
-Een scherm met uitleg over wat de gebruiker te wachten staat, tijdens het invullen van het 'Vraag aan de gemeente' e-formulier.
+**Scherm B - Uitleg over het formulier:** Een scherm met uitleg over wat de gebruiker te wachten staat, tijdens het invullen van het 'Vraag aan de gemeente' e-formulier.
 
 ![Scherm B](.media/SchermB.svg)
 
-_**Ontwerpadvies en nader onderzoek 2**\
-Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd niet voor iedereen geldt. Uit nader onderzoek moet blijken hoe de hoeveelheid werk, om het formulier in te vullen, inclusiever kan worden uitgedrukt._
+_**Ontwerpadvies en nader onderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd niet voor iedereen geldt. Uit nader onderzoek moet blijken hoe de hoeveelheid werk, om het formulier in te vullen, inclusiever kan worden uitgedrukt._
 
-_**Ontwerpadvies en nader onderzoek 3**\
-Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Iot nader onderzoek moet blijken of het markeren van verplichte velden niet toch een betere manier is. Het merendeel van de respondenten gaf aan het verwarrend te vinden._
+_**Ontwerpadvies en nader onderzoek 3:** Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Iot nader onderzoek moet blijken of het markeren van verplichte velden niet toch een betere manier is. Het merendeel van de respondenten gaf aan het verwarrend te vinden._
 <div style="page-break-after: always"></div>
 
-**Scherm C - Inloggen:**\
-Keuzescherm om in te loggen
+**Scherm C - Inloggen:** Keuzescherm om in te loggen
 
 ![Scherm C](.media/SchermC.svg)
 
-_**Ontwerpadvies en nader onderzoek 4**\
-Uit het usability onderzoek bleek dat sommige mensen het formulier hadden verwacht in plaats van een scherm met de mogelijkheid om in te loggen. Uit nader onderzoek moet blijken of dit inlogscherm op een andere plek in de user journey moet zitten of misschien op een andere visuele manier gepresenteerd moet worden. In dit ontwerp was gekozen voor radio buttons met ja en nee, maar misschien zijn mensen meer gebaat bij een andere weergave waarbij de voordelen van inloggen nog duidelijker benoemd staan. De voordelen staan in dit ontwerp maar merendeel van de participanten las de tekst niet omdat ze veel bezig waren met een keuze te maken om wel of niet in te loggen met 'het moeilijke 'of het 'enge' DigiD._
+_**Ontwerpadvies en nader onderzoek 4** Uit het usability onderzoek bleek dat sommige mensen het formulier hadden verwacht in plaats van een scherm met de mogelijkheid om in te loggen. Uit nader onderzoek moet blijken of dit inlogscherm op een andere plek in de user journey moet zitten of misschien op een andere visuele manier gepresenteerd moet worden. In dit ontwerp was gekozen voor radio buttons met ja en nee, maar misschien zijn mensen meer gebaat bij een andere weergave waarbij de voordelen van inloggen nog duidelijker benoemd staan. De voordelen staan in dit ontwerp maar merendeel van de participanten las de tekst niet omdat ze veel bezig waren met een keuze te maken om wel of niet in te loggen met 'het moeilijke 'of het 'enge' DigiD._
 <div style="page-break-after: always"></div>
 
-**Scherm E Formulier stap 1 (E 1/4):**\
-Vraag aan de gemeente invoeren
+**Scherm E Formulier stap 1 (E 1/4):** Vraag aan de gemeente invoeren
 
 ![Scherm E stap 1](./.media/SchermE.svg)
 
-_**Ontwerpadvies en nader onderzoek 5**\
-Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij de scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan._
+_**Ontwerpadvies en nader onderzoek 5:** Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij de scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan._
 <div style="page-break-after: always"></div>
 
-**Formulier stap 2 (E 2/4)**\
-Contactgegevens invoeren
+**Formulier stap 2 (E 2/4):** Contactgegevens invoeren
 
 ![Scherm E stap 2](.media/SchermE2.svg)
 
-<mark>_**Ontwerpadvies 6**\
-_</mark>
+<mark>_**Ontwerpadvies 6** ..._</mark>
 <div style="page-break-after: always"></div>
 
-**Formulier stap 3 (E 3/4)**\
-Controleer gegevens en verzend.\
+**Formulier stap 3 (E 3/4):** Controleer gegevens en verzend.
 
 ![Scherm E stap 3](.media/SchermE3.svg)
 
-<mark>_**Ontwerpadvies 7**\
-_</mark>
+<mark>_**Ontwerpadvies 7** ..._</mark>
 <div style="page-break-after: always"></div>
 
-**Formulier stap 4 (E 3/4)**\
-Uw vraag is met succes verstuurd
+**Formulier stap 4 (E 3/4):** Uw vraag is met succes verstuurd
 
 ![Scherm E stap 4](.media/SchermE4.svg)
 
-<mark>_**Ontwerpadvies 8**\
-_</mark>
+<mark>_**Ontwerpadvies 8**..._</mark>
 <div style="page-break-after: always"></div>
 
 Figma schermen van de Gmail omgeving voor scenario E_kort:
 
-**Gmail inbox (niet ingelogd scenario)**\
-Ontvangsbevestiging in de Inbox
+**Gmail inbox (niet ingelogd scenario):** Ontvangstbevestiging in de Inbox
 
 ![Gmail inbox](.media/E-mails_sc_kort.svg)
 
-<mark>_**Ontwerpadvies 9**\
-_</mark>
+<mark>_**Ontwerpadvies 9** ..._</mark>
 <div style="page-break-after: always"></div>
 
-**Gmail berichtdetail (niet ingelogd scenario)**\
-Ontvangsbevestiging inhoud emailtje
+**Gmail berichtdetail (niet ingelogd scenario):** Ontvangstbevestiging inhoud emailtje
 
 ![Gmail ontvangst email](.media/E-mail%20reactie_sc_kort.svg)
 
-<mark>_**Ontwerpadvies 10**\
-_</mark>
+<mark>_**Ontwerpadvies 10** ..._</mark>
 <div style="page-break-after: always"></div>
 
-**Gmail PDF (niet ingelogd scenario)**\
-Pdf met ingevulde gegevens\
+**Gmail PDF (niet ingelogd scenario):** Pdf met ingevulde gegevens
 
 ![Gmail bijlage pdf](.media/PDFje_uit_de_mail.png)
 
-<mark>_**Ontwerpadvies 11**\
-_</mark>
+<mark>_**Ontwerpadvies 11** ..._</mark>
 <div style="page-break-after: always"></div>
 
 Figma schermen met een nagebooste Gmail omgeving voor scenario E_lang:
 
-**Gmail inbox (wel ingelogd scenario)**\
-Ontvangsbevestiging in de Inbox
+**Gmail inbox (wel ingelogd scenario)** Ontvangstbevestiging in de Inbox
 
 ![Gmail ontvangst email](.media/E-mails_sc_lang.svg)
 
@@ -572,8 +550,7 @@ Ontvangsbevestiging in de Inbox
 _</mark>
 <div style="page-break-after: always"></div>
 
-**Gmail berichtdetail (wel ingelogd scenario)**\
-Een email met een een notificatie dat er een reactie van de gemeente in de MijnOmgeving staat.
+**Gmail berichtdetail (wel ingelogd scenario)** Een email met een een notificatie dat er een reactie van de gemeente in de MijnOmgeving staat.
 
 ![Gmail ontvangst email](.media/E-mail%20reactie_sc_lang.svg)
 
@@ -581,8 +558,7 @@ Een email met een een notificatie dat er een reactie van de gemeente in de MijnO
 _</mark>
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving 0verzichtscherm**\
-MijnOmgeving Overzichtscherm waar een zaak klaarstaat.
+**MijnOmgeving 0verzichtscherm** MijnOmgeving Overzicht-scherm waar een zaak klaarstaat.
 
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)
 
@@ -590,8 +566,7 @@ MijnOmgeving Overzichtscherm waar een zaak klaarstaat.
 _</mark>
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving Mijn zaken**\
-Overzicht van alle zaken, in dit geval maar een.
+**MijnOmgeving Mijn zaken** Overzicht van alle zaken, in dit geval maar een.
 
 ![Gmail inbox](.media/LV_mijn-omgeving-dashboard_sc_lang-1.svg)
 
@@ -599,8 +574,7 @@ Overzicht van alle zaken, in dit geval maar een.
 _</mark>
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving zaakdetail**\
-Scherm waarin de reactie van de gemeente te lezen is.
+**MijnOmgeving zaakdetail** Scherm waarin de reactie van de gemeente te lezen is.
 
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-berichten_sc_lang.svg)
 
