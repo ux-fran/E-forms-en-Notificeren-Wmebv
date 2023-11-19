@@ -510,56 +510,104 @@ Contactgegevens invoeren
 
 ![Scherm E stap 2](.media/SchermE2.svg)
 
-_**Ontwerpadvies 6**\
-_
+<mark>_**Ontwerpadvies 6**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-**Formulier stap 3 (E 3/4):** Controleer gegevens en verzend.\
-**Beschrijving:** Controleer de ingevulde gegevens en verzend het formulier (E 4/4).\
-Na het verzenden zou je een e-mailnotificatie moeten ontvangen waarin wordt bevestigd dat de gemeente jouw vragen en opmerkingen heeft ontvangen. Bekijk de e-mail en vertel ons wat je ervan vindt.
+**Formulier stap 3 (E 3/4)**\
+Controleer gegevens en verzend.\
 
-Figma scherm E stap 3: Controleer uw gegevens\
-![Scherm E stap 3](.media/SchermE3.svg)\
-Figma scherm E stap 4: Uw vraag is met succes verstuurd\
+![Scherm E stap 3](.media/SchermE3.svg)
+
+<mark>_**Ontwerpadvies 7**\
+_</mark>
+<div style="page-break-after: always"></div>
+
+**Formulier stap 4 (E 3/4)**\
+Uw vraag is met succes verstuurd
+
 ![Scherm E stap 4](.media/SchermE4.svg)
+
+<mark>_**Ontwerpadvies 7**\
+_</mark>
 <div style="page-break-after: always"></div>
 
 Figma schermen van de Gmail omgeving voor scenario E_kort:
 
-Ontvangsbevestiging in de Inbox\
+**Gmail inbox (niet ingelogd scenario)**\
+Ontvangsbevestiging in de Inbox
+
 ![Gmail inbox](.media/E-mails_sc_kort.svg)
+
+<mark>_**Ontwerpadvies 8**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-Ontvangsbevestiging inhoud emailtje\
+**Gmail berichtdetail (niet ingelogd scenario)**\
+Ontvangsbevestiging inhoud emailtje
+
 ![Gmail ontvangst email](.media/E-mail%20reactie_sc_kort.svg)
+
+<mark>_**Ontwerpadvies 9**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-Ontvangsbevestiging pdf met ingevulde gegevens\
+**Gmail PDF (niet ingelogd scenario)**\
+Pdf met ingevulde gegevens\
+
 ![Gmail bijlage pdf](.media/PDFje_uit_de_mail.png)
+
+<mark>_**Ontwerpadvies 10**\
+_</mark>
 <div style="page-break-after: always"></div>
 
 Figma schermen met een nagebooste Gmail omgeving voor scenario E_lang:
 
-Ontvangsbevestiging in de Inbox\
+**Gmail inbox (wel ingelogd scenario)**\
+Ontvangsbevestiging in de Inbox
+
 ![Gmail ontvangst email](.media/E-mails_sc_lang.svg)
+
+<mark>_**Ontwerpadvies 10**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-Ontvangsbevestiging inhoud emailtje\
+**Gmail berichtdetail (wel ingelogd scenario)**\
+Een email met een een notificatie dat er een reactie van de gemeente in de MijnOmgeving staat.
+
 ![Gmail ontvangst email](.media/E-mail%20reactie_sc_lang.svg)
+
+<mark>_**Ontwerpadvies 11**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-Mijn Omgeving Overzichtscherm\
+**MijnOmgeving 0verzichtscherm**\
+MijnOmgeving Overzichtscherm waar een zaak klaarstaat.
+
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)
+
+<mark>_**Ontwerpadvies 12**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-Mijn Omgeving Mijn zaken overzicht\
+**MijnOmgeving Mijn zaken**\
+Overzicht van alle zaken, in dit geval maar een.
+
 ![Gmail inbox](.media/LV_mijn-omgeving-dashboard_sc_lang-1.svg)
+
+<mark>_**Ontwerpadvies 13**\
+_</mark>
 <div style="page-break-after: always"></div>
 
-Mijn Omgeving Uw vraag aan de gemeente zaak\
+**MijnOmgeving zaakdetail**\
+Scherm waarin de reactie van de gemeente te lezen is.
+
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-berichten_sc_lang.svg)
 
-Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)
+<mark>_**Ontwerpadvies 14**\
+_</mark>
+
+Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1) en bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv)
 
 ### 6.4.2. Development en Code Snippets
 
