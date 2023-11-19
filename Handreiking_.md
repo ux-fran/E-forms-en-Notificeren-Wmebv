@@ -28,7 +28,7 @@ Vereniging voor Nederlandse Gemeenten
   - [5.7. Notificatie-Inhoud en Timing](#57-notificatie-inhoud-en-timing)
   - [5.8. Testen met Gebruikers](#58-testen-met-gebruikers)
   - [5.9. Ontwerpcriteria samengevat](#59-ontwerpcriteria-samengevat)
-- [6. Praktijkopdracht: Ontwikkel een generiek e-formulier op basis van NL Design System](#6-praktijkopdracht-ontwikkel-een-generiek-e-formulier-op-basis-van-nl-design-system)
+- [6. Praktijk: Ontwikkeling van generiek e-formulier op basis van NL Design System](#6-praktijk-ontwikkeling-van-generiek-e-formulier-op-basis-van-nl-design-system)
   - [6.1. Project achtergrond en doelstelling](#61-project-achtergrond-en-doelstelling)
   - [6.2. NL Design System](#62-nl-design-system)
   - [6.3. Aanpak van de praktijkopdracht](#63-aanpak-van-de-praktijkopdracht)
@@ -308,11 +308,11 @@ Deze lijst is onder andere geput uit de door de VNG aangeboden [Toolkit Meten en
 
 Voor meer gedetailleerde informatie over notificaties wordt verwezen naar [de bijdrage over notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer) Waar onder andere toelichting gegeven wordt op de nieuwe notificatie templates die door hen ontwikkeld zijn en nieuwe technische mogelijkheden zoals een nieuwe variabele voor een 'einddatum handelingstermijn'.
 
-# 6. Praktijkopdracht: Ontwikkel een generiek e-formulier op basis van NL Design System
+# 6. Praktijk: Ontwikkeling van generiek e-formulier op basis van NL Design System
 
 ## 6.1. Project achtergrond en doelstelling
 
-Om een praktisch voorbeeld te kunnen geven van een generiek e-formulier is er samengewerkt met NL Design System om binnen een relatief korte tijd te komen tot een generiek voorbeeld formulier dat inzage geeft in het ontwerpproces en de bouw met behulp van NL Design System componenten. Er is gekozen voor een generiek formulier, omdat dit het meest laagdrempelige formulier is wat wellicht initieel ingezet kan worden, met name voor die processen die nog niet over een (specifiek) formulier beschikken.
+Om een praktisch voorbeeld te kunnen geven van een generiek e-formulier is er samengewerkt met NL Design System om binnen een relatief korte tijd te kunnen komen tot een generiek formulier waar niet alleen code van de gebruikte NL Design System componenten beschikbaar wordt gesteld maar ook inzage geeft in het ontwerpproces en de bouw met behulp van NL Design System componenten. Er is gekozen voor het generieke formulier "Vraag aan uw gemeente", omdat dit het meest laagdrempelige formulier is wat wellicht initieel ingezet kan worden om een digitaal kanaal open te kunnen zetten voor met name die processen die nog niet over een (specifiek) formulier beschikken, maar die wel gecategoriseerd zijn als processen waar het berichtenverkeer geldt als formeel bericht. Het "Vraag uw gemeente"-formulier kan als initieel digitale contactformulier gebruikt worden, indien er onvoldoende tijd is voordat de Wmebv van kracht gaat om een goed, veilig, Digitaal toegankelijk en Wmebv-proof specifiek formulier voor bepaalde producten te kunnen ontwikkelen. Let wel, dat de behandeling van een degelijk generiek formulier omslachtiger zal zijn dan wanneer er gebruik gemaakt zou worden van een specifiek formulier in combinatie met een achterliggend zaaksysteem.
 
 ## 6.2. NL Design System
 
@@ -329,6 +329,8 @@ Niemand kan beter uitleggen wat NL Design System is dan NL Design System zelf, d
 >- Uitbreidbaar en publiek beschikbaar
 
 Bron: [NL Design System](https://nldesignsystem.nl/)
+
+NL Design System is een communicatiemiddel naar ontwikkelteams
 
 ## 6.3. Aanpak van de praktijkopdracht
 
