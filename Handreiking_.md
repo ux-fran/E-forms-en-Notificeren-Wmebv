@@ -41,6 +41,8 @@ Vereniging voor Nederlandse Gemeenten
       - [6.3.3.2. User Journey](#6332-user-journey)
     - [6.3.4. Development](#634-development)
     - [6.3.5. Usability test](#635-usability-test)
+      - [6.3.5.1. Opzet en samenstelling](#6351-opzet-en-samenstelling)
+      - [6.3.5.2. Uitkomsten](#6352-uitkomsten)
   - [6.4. Specifiek: Figma ontwerpen, advies en vervolgonderzoek](#64-specifiek-figma-ontwerpen-advies-en-vervolgonderzoek)
 - [7. Bronnen en overige informatie](#7-bronnen-en-overige-informatie)
   - [7.1. Stappenplan implementatie Wmebv](#71-stappenplan-implementatie-wmebv)
@@ -437,32 +439,40 @@ In het korte scenario, waarin Jeroen niet via DigiD inlogt opent hij Gmail en zi
 MijnOmgeving.\
 In de MijnOmgeving beland Jeroen op het overzicht-scherm kan hij kan via 'Mijn zaken', de reactie van de gemeente op zijn vraag vinden.
 
-
 ### 6.3.4. Development
 
 <mark>
-- (vragen aan Mees/Robbert/Yolijn)
-- houd de NLDS site in de gaten voor code snippets
-Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwezen naar de [pagina voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht).
-Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv).
+TODO
+- (vragen aan Mees/Robbert/Yolijn) | 
+- houd de NLDS site in de gaten voor code snippets |
+Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwezen naar de [pagina voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht). |
+Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). |
 </mark>
 
 ### 6.3.5. Usability test
 
-<mark>
-8 participanten
-- 6 laaggeletterd
+#### 6.3.5.1. Opzet en samenstelling
+
+Stichting Accessibility heeft met 8 participanten de usability test uitgevoerd op 16 en 17 november 2023. De test vond plaats op locatie bij Stichting Accessibility in Utrecht Overvecht. Er was mogelijkheid om zowel op locatie als online mee te kijken middels een MS Teams meeting. Tevens was er mogelijkheid om via de chat vragen te kunnen stellen. Het onderzoeksteam bestond uit twee mensen, een facilitator en een observator.
+
+De samenstelling van de participanten was als volgt:
+
+- 6 laaggeletterden
 - 1 fysiek beperkt
 - 1 visueel beperkt
-2 onderzoeksdagen
-Onderzoek:
+
+Het onderzoek bestond uit de volgende onderdelen:
+
 - pre-interview
-  - specifieke taakopdrachten en vragen
+- specifieke taakopdrachten en vragen gebruikmakend van de live omgeving waar de e-formulieren beschikbaar waren, Gmail en een Figma prototype voor de mijnOmgeving
 - post-interview
-Stichting Accessibility + op locatie en online meekijken + mogelijkheid vragen via chat
--uitkomsten (To come na de usability tests)
-- Rapport komt beschikbaar op gebruikersonderzoeken.nl
-</mark>
+
+#### 6.3.5.2. Uitkomsten
+
+Het is noemenswaardig dat alle participanten beide scenario's van begin tot het einde hebben kunnen doorlopen, waarbij het formulier-gedeelte voldoende gebruikersvriendelijk en toegankelijk bleek. Uiteraard is er ruimte voor verbetering, hieraan zal in de volgende paragraaf aandacht besteed worden. Per scherm zullen de belangrijkste bevindingen, adviezen en suggesties voor vervolgonderzoek genoemd worden.
+
+Tot slot zal het onderzoeksrapport van Stichting Accessibility beschikbaar gesteld worden op de website van [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/)
+
 <div style="page-break-after: always"></div>
 
 ## 6.4. Specifiek: Figma ontwerpen, advies en vervolgonderzoek
@@ -628,6 +638,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Video - Kennissessie 2: Omnichannel](https://vng.nl/wmebv-webinars-en-kennissessies)
 - [Open Source](https://opensource.org/definition-annotated/)
 - [Figma](https://www.figma.com/design/)
+- [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/)
 - [Uitgewerkte ontwerpen van het generieke formulier in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)
 - [Live demo van het geprogrammeerde generieke formulier](https://www.gemeentevoorbeeld.nl/wmebv)
 - [Over heldere communicatie](https://vng.nl/projecten/duidelijke-overheidscommunicatie)
@@ -637,10 +648,10 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 
 - <mark> 
   Openformulieren noemen |
-  VNG Wmebv website | 
+  VNG Wmebv website |
   Forum Wmebv |
   Kennissessie e-formulieren en notificaties |
-  Gebruikersonderzoeken.nl |
   </mark>
 - ...
+- 
   
