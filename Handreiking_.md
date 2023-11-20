@@ -113,6 +113,8 @@ Zie echter voor een zeer uitgebreide toelichting op de Wmebv de [Handreiking imp
 
 Allereerst is het belangrijk om te weten dat de Wmebv over processen of beter gezegd, communicatiestromen gaat. Communicatiestromen tussen burger en overheidsinstantie. De stroom van een formeel bericht kent een begin en een eind. De stroom verloopt in verschillende fasen. Een formeel bericht wordt geïnitieerd (Zie het schema: 'Voor ontvangst') en vervolgens verstuurd. Als het goed gaat, wordt het bericht ontvangen door de overheidsinstantie (Zie het schema: 'Na ontvangst'). Vervolgens wordt het bericht in behandeling genomen en tijdens de behandeling kunnen vervolgacties voor de burger of instantie voortvloeien. Deze acties worden uitgevoerd, gelogd en er wordt over gecommuniceerd (zie het schema: 'Uitgaande formele berichten'), net zolang tot de behandeling van de initiële vraag of de daaruit voortgevloeide vragen of acties afgehandeld zijn. Naast de ze digitale communicatiestroom van formele berichten tussen burger en instantie, regelt de Wmebv een zorgplicht die stelt dat er voor passende ondersteuning gezorgd moet worden voor de mensen die minder goed mee kunnen komen in de digitale wereld.\
 ![Wmebv-schema.png](.media/img_7.png)\
+Afbeelding: Schematische weergave Wmebv
+
 De aspecten van de Wmebv zijn op te delen in onder andere een aantal blokken met daarin fasen waarin een formeel bericht zich bevindt:
 
 **Blok 1 - Binnenkomende formele berichten:**\
@@ -156,7 +158,8 @@ De Wmebv regelt dat ingevulde gegevens van een e-formulier terug-getoond moeten 
 
 _**Wmebv-ontwerpadvies:**\
 Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten. Bijvoorbeeld op deze manier:_\
-![Ontvangstbevestiging, download en print](.media/Ontvangstbevestiging.png)
+![Ontvangstbevestiging, download en print](.media/Ontvangstbevestiging.png)\
+Afbeelding: Mogelijkheid tot printen en downloaden.
 
  Tot slot dient de gemeente bewijslast te hebben, dat betekent dat een systeem moet zijn waarin gegevens gelogd worden.
 
@@ -206,12 +209,15 @@ Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor [dig
 - De **structuur** van het formulier zowel in de frontend als de backend moet goed in elkaar zitten, vermijd hierbij, indien mogelijk, een horizontale layout. Voorzie alle inputvelden van een label en stapel de velden bijvoorbeeld:
   
   ![Structuur formulier](.media/gestapeldeVelden.png)\
+  Afbeelding: Gestapelde labels en velden.
+
   **_Advies onderzoeksvraag:_**\
   _Wordt het formulier met een screen reader in de juiste volgorde voorgelezen?_
   <div style="page-break-after: always"></div>
 
 - Maak **foutmeldingen** visueel en tekstueel duidelijk. Leid de gebruiker naar de plek waar de fout opgelost moet worden
-  ![Foutmeldingen](.media/Foutmeldingen.png)
+  ![Foutmeldingen](.media/Foutmeldingen.png)\
+  Afbeelding: Foutmeldingen in een e-formulier
   
   **_Advies onderzoeksvraag:_**\
   _Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder in de stress te raken, de fouten in het formulier vinden en oplossen?_
@@ -226,6 +232,7 @@ Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor [dig
 
 - Vertrouw niet alleen op kleur en zorg voor leesbare [tekst op B1 niveau](https://ishetb1.nl/) en [test het formulier en de website op het kleurcontrast](https://www.toptal.com/designers/colorfilter) in verband met de vele vormen en gradaties van kleurenblindheid.\
 ![Kleurenblindheid controle](.media/kleurenblindheidcontrole.png)\
+Afbeelding: Screenshot van kleurenfilter test.\
 Bron: [https://www.toptal.com](https://www.toptal.com)
 
 Naast toegankelijk formulieren is het ook belangrijk de eventuele bijlagen in de vorm van documenten digitaal toegankelijk te maken. Zoals digitaal toegankelijke pdf's of afbeeldingen die voor mensen die blind of slechtziend is niet te ontcijferen zijn.
@@ -243,6 +250,8 @@ Zorg ervoor dat de taal eenvoudig en duidelijk is en dat gebruikers gemakkelijk 
 - Licht vragen en termen toe, waar nodig
 - Test de formulieren en notificaties op algemene gebruiksvriendelijkheid. Zijn ze intuïtief en gemakkelijk te begrijpen voor de gebruiker?
 
+Note: NL Design System werkt ten tijde van dit schrijven, aan vernieuwde richtlijnen voor e-formulieren, naar verwachting zijn deze vernieuwde richtlijnen medio januari 2024 beschikbaar op de [pagina voor richtlijnen voor formulieren van NL Design System](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht).
+
 ## 5.2. Rechtsgeldigheid en Authenticatie
 
 Controleer of de gebruikte elektronische handtekeningen en authenticatiemethoden voldoen aan de [wettelijke vereisten voor rechtsgeldigheid](https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/digitale-veiligheid-en-identiteit). Zorg ervoor dat er passende maatregelen zijn genomen om de identiteit van de gebruiker te verifiëren.
@@ -259,7 +268,9 @@ Controleer of er voldoende [beveiligingsmaatregelen](https://www.cip-overheid.nl
 
 Zorg ervoor dat formulieren en notificaties goed werken op verschillende apparaten en schermformaten. Zorg ervoor dat de formulieren ook goed werken op mobiele apparaten zoals telefoons en tablets. Houdt hierbij extra rekening met dat het [juiste mobile toetsenbord](https://www.mobilespoon.net/2018/12/10-usability-rules-keyboard-mobile-app.html) wordt aangeboden bij de bijbehorende velden. Qwerty bij tekstvelden, nummerriek bij nummervelden etc. Uit het recent uitgevoerde usability onderzoek dat verderop in dit document wordt toegelicht, kwam naar voren dat het merendeel van de participanten gebruikmaken van hun mobile telefoon of tablet om dergelijke formulieren in te vullen. Daarbij zijn ze vaak geholpen met de woordsuggesties die het mobile apparaat toont, om zo sneller een tekst te kunnen produceren.\
 ![Mobiel toetsenbord](.media/Mobile_toetsenbord2.jpg)\
-Responsiviteit of adaptiviteit is essentieel voor een goede gebruikerservaring op zowel desktops als mobiele apparaten. [Een interessant artikel over het verschil tussen Responsive en Adaptive ontwerp.](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
+Afbeelding: Mobiel toetsenbord met woordvoorspelling mogelijkheid.
+
+Responsiviteit of adaptiviteit is essentieel voor een goede gebruikerservaring op zowel desktops als mobiele apparaten. Hierbij [een interessant artikel over het verschil tussen Responsive en Adaptive ontwerp.](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
 
 ## 5.6. Duidelijke Instructies en Hulpfuncties
 
@@ -316,6 +327,8 @@ Naast de de met (\*\*) gemarkeerd punten zijn er nog twee punten die in het acht
 
 Deze lijst is onder andere geput uit de door de VNG aangeboden [Toolkit Meten en Verbeteren van Webformulieren.](https://vng.nl/kennisbank-dienstverlening-gemeenten/toolkit-meten-en-verbeteren-van-webformulieren) het [A11Y project](https://www.a11yproject.com/posts/how-to-write-accessible-forms/) en het [World Wide Web Consortium (W3C)](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
+Zoals eerder aangegeven in dit document: NL Design System werkt ten tijde van dit schrijven, aan vernieuwde richtlijnen voor e-formulieren, naar verwachting zijn deze vernieuwde richtlijnen medio januari 2024 beschikbaar op de [pagina voor richtlijnen voor formulieren van NL Design System](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht).
+
 Voor meer gedetailleerde informatie over notificaties wordt verwezen naar [de bijdrage over notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer) Waar onder andere toelichting gegeven wordt op de nieuwe notificatie templates die door hen ontwikkeld zijn en nieuwe technische mogelijkheden zoals een nieuwe variabele voor een 'einddatum handelingstermijn'.
 
 # 6. Praktijk: Ontwikkeling van generiek e-formulier op basis van NL Design System
@@ -344,7 +357,8 @@ Bron: website NL Design System
 
 Om de NL Design System componenten te voorzien van huisstijl wordt gebruik gemaakt 'thema's' waarin de ontwerpkeuzes voor de honderden NL Design Tokens staan. Uiteraard hoeven niet alle honderden aangepast te worden, maar het geeft de mate van flexibiliteit aan. Zo zijn er design tokens voor de verschillende lettertypes, kleuren van knoppen, randjes van knoppen, border-radius van knoppen en nog veel meer. Met een thema zijn de componenten dus te voorzien van hun eigen stijl, zodat deze aansluit op de huisstijl van de organisatie en zonder afbreuk te doen aan de digitaal toegankelijke werking ervan, mits uiteraard gehouden wordt aan de richtlijnen, denk bijvoorbeeld aan kleurcontrast, waarover werd toegelicht in paragraaf [5.1](#51-digitale-toegankelijkheid-en-gebruikersvriendelijkheid). Om nog iets dieper in te gaan op de samenwerking tussen ontwerpers en ontwikkelaars is het interessant om te weten dat met behulp van de design tool genaamd Figma in combinatie met de Token Studio plugin er een naadloze samenwerking ontstaat tussen het ontwerpen in Figma en de daadwerkelijke styling van de geprogrammeerde schermen. Waar vroeger een stijlgids overgenomen moest worden door frontend developers, kan de ontwerper nu zelf styling aandragen en updaten rechtstreeks vanuit Figma. Voor meer over deze magie wordt verwezen naar een interessante [video presentatie over design tokens](https://youtu.be/n9m2TtD1esE?si=oVwolw51XTtgmt28) tijdens het jaarlijkse [Design Systems Week](https://nldesignsystem.nl/events/design-systems-week-2023/en/overview/) en de [tekstuele toelichting op design tokens](https://nldesignsystem.nl/meedoen/design-tokens/) op NL Design System. Tot slot is het interessant om te zien hoe verschillende gemeenten al hun eigen thema's beginnen op te bouwen en bijhouden in het [NL Design System Storybook](https://nl-design-system.github.io/themes/?path=/story/blockquote--gemeente-utrecht).
 ![NL Design Design Tokens](.media/meedoen_design-tokens_themes.png)\
-Bron: website NL Design System
+Afbeelding: Het effect op styling middels design tokens.\
+Bron: website NL Design System 
 
 ### 6.2.2. Het Estafette model
 
@@ -357,6 +371,7 @@ Onderdelen worden tijdens hun Estafettereis Open Source gedeeld met iedereen in 
 
 Voor het ontwerp en de ontwikkeling van het generieke e-formulier is er nauw samengewerkt met UX designers, accessibility experts en developers vanuit het NL Design System kernteam en UX designers uit de NL Design system community. Met name een UX Designer van gemeente Den Haag, die al veel ervaring heeft met het ontwerpen in [Figma](https://www.figma.com/design/) op basis van NL Design System en ook veel [onderzoek heeft gedaan naar gebruikersvriendelijkheid van generieke services](https://vng.nl/artikelen/ux-onderzoek-generieke-services) binnen de MijnOmgeving. Er heeft ten tijde van het ontwerp een grote ontwerpworkshop plaatsgevonden in de NL Design System community waarin onder andere over ontwerppatronen, styling en tekst collectieve besluiten zijn genomen. Deze besluiten zijn doorgevoerd in de schermontwerpen om deze mee te kunnen nemen in de usability test. Tevens is het ontwerp onder ander gedeeld tijdens de de [Heartbeat sessie van 31 oktober 2023](https://nldesignsystem.nl/events/heartbeat/#heartbeat) van NL Design System en een e-formulieren sessie van Gebruikers Centraal.
 ![Heartbeat screenshot](.media/Heartbeart_screenshot.png)
+Afbeelding: Heartbeat sessie van NL Design System
 
 ### 6.3.2. Voorbereiding
 
@@ -472,19 +487,19 @@ _**Ontwerpadvies 1:** Dit scherm is onderverdeeld in een aantal verschillende on
 
 **Scherm B - Uitleg over het formulier:** Een scherm met uitleg over wat de gebruiker te wachten staat, tijdens het invullen van het 'Vraag aan de gemeente' e-formulier.\
 ![Scherm B](.media/SchermB.svg)\
-_**Ontwerpadvies en nader onderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd niet voor iedereen geldt. Uit nader onderzoek moet blijken hoe de hoeveelheid werk, om het formulier in te vullen, inclusiever kan worden uitgedrukt._
+_**Ontwerpadvies en suggesties voor vervolgonderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd niet voor iedereen geldt. Uit nader onderzoek moet blijken hoe de hoeveelheid werk, om het formulier in te vullen, inclusiever kan worden uitgedrukt._
 
-_**Ontwerpadvies en nader onderzoek 3:** Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Iot nader onderzoek moet blijken of het markeren van verplichte velden niet toch een betere manier is. Het merendeel van de respondenten gaf aan het verwarrend te vinden._
+_**Ontwerpadvies en suggesties voor vervolgonderzoek 3:** Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Iot nader onderzoek moet blijken of het markeren van verplichte velden niet toch een betere manier is. Het merendeel van de respondenten gaf aan het verwarrend te vinden._
 <div style="page-break-after: always"></div>
 
 **Scherm C - Inloggen:** Keuzescherm om in te loggen\
 ![Scherm C](.media/SchermC.svg)\
-_**Ontwerpadvies en nader onderzoek 4** Uit het usability onderzoek bleek dat sommige mensen het formulier hadden verwacht in plaats van een scherm met de mogelijkheid om in te loggen. Uit nader onderzoek moet blijken of dit inlogscherm op een andere plek in de user journey moet zitten of misschien op een andere visuele manier gepresenteerd moet worden. In dit ontwerp was gekozen voor radio buttons met ja en nee, maar misschien zijn mensen meer gebaat bij een andere weergave waarbij de voordelen van inloggen nog duidelijker benoemd staan. De voordelen staan in dit ontwerp maar merendeel van de participanten las de tekst niet omdat ze veel bezig waren met een keuze te maken om wel of niet in te loggen met 'het moeilijke 'of het 'enge' DigiD._
+_**Ontwerpadvies en suggesties voor vervolgonderzoek 4** Uit het usability onderzoek bleek dat sommige mensen het formulier hadden verwacht in plaats van een scherm met de mogelijkheid om in te loggen. Uit nader onderzoek moet blijken of dit inlogscherm op een andere plek in de user journey moet zitten of misschien op een andere visuele manier gepresenteerd moet worden. In dit ontwerp was gekozen voor radio buttons met ja en nee, maar misschien zijn mensen meer gebaat bij een andere weergave waarbij de voordelen van inloggen nog duidelijker benoemd staan. De voordelen staan in dit ontwerp maar merendeel van de participanten las de tekst niet omdat ze veel bezig waren met een keuze te maken om wel of niet in te loggen met 'het moeilijke 'of het 'enge' DigiD._
 <div style="page-break-after: always"></div>
 
 **Scherm E Formulier stap 1 (E 1/4):** Vraag aan de gemeente invoeren\
 ![Scherm E stap 1](./.media/SchermE.svg)\
-_**Ontwerpadvies en nader onderzoek 5:** Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij de scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan._
+_**Ontwerpadvies en suggesties voor vervolgonderzoek 5:** Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij de scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan._
 <div style="page-break-after: always"></div>
 
 **Formulier stap 2 (E 2/4):** Contactgegevens invoeren\
@@ -531,7 +546,7 @@ Figma schermen met een nagebooste Gmail omgeving voor scenario E_lang:
 <mark>_**Ontwerpadvies 13:** ..._</mark>
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving 0verzichtscherm** MijnOmgeving Overzicht-scherm waar een zaak klaarstaat.\
+**MijnOmgeving overzichtscherm** MijnOmgeving Overzicht-scherm waar een zaak klaarstaat.\
 ![Gmail bijlage pdf](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)\
 <mark>_**Ontwerpadvies 14:** ..._</mark>
 <div style="page-break-after: always"></div>
@@ -597,6 +612,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Toegankelijke documenten met OpenDocument](https://opendocumentformat.org/guidance/accessibility/)
 - [Pdf's zo digitaal toegankelijk mogelijk](https://accessible-pdf.info/en/basics/)
 - [Richtlijnen voor taalgebruik](https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1)
+- [Pagina voor richtlijnen voor formulieren van NL Design System](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht)
 - [Wettelijke vereisten voor rechtsgeldigheid](https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/digitale-veiligheid-en-identiteit)
 - [Alles over privacybescherming](https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens)
 - [Alles over beveiligingsmaatregelen](https://www.cip-overheid.nl/)
@@ -636,10 +652,12 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 
 ## 7.3. Interessante links
 
-- <mark> Openformulieren noemen? 
-  VNG Wmebv website
-  Forum Wmebv
-  Kennissessie e-formulieren en notificaties
+- <mark> 
+  Openformulieren noemen |
+  VNG Wmebv website | 
+  Forum Wmebv |
+  Kennissessie e-formulieren en notificaties |
+  Gebruikersonderzoeken.nl |
   </mark>
 - ...
   
