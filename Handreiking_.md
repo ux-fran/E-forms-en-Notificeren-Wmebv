@@ -39,13 +39,9 @@ Vereniging voor Nederlandse Gemeenten
     - [6.3.3. Ontwerp](#633-ontwerp)
       - [6.3.3.1. Scenario](#6331-scenario)
       - [6.3.3.2. User Journey](#6332-user-journey)
-      - [6.3.3.3. Tooling](#6333-tooling)
-    - [6.3.4. Ontwikkeling](#634-ontwikkeling)
-    - [6.3.5. Testen met gebruikers](#635-testen-met-gebruikers)
-  - [6.4. Specifiek: Uitwerking generiek e-formulier](#64-specifiek-uitwerking-generiek-e-formulier)
-    - [6.4.1. Figma ontwerpen en Wmebv-ontwerpadviezen](#641-figma-ontwerpen-en-wmebv-ontwerpadviezen)
-    - [6.4.2. Development en Code Snippets](#642-development-en-code-snippets)
-    - [6.4.3. Usability Testresultaten](#643-usability-testresultaten)
+    - [6.3.4. Development](#634-development)
+    - [6.3.5. Usability test](#635-usability-test)
+  - [6.4. Specifiek: Figma ontwerpen, advies en vervolgonderzoek](#64-specifiek-figma-ontwerpen-advies-en-vervolgonderzoek)
 - [7. Bronnen en overige informatie](#7-bronnen-en-overige-informatie)
   - [7.1. Stappenplan implementatie Wmebv](#71-stappenplan-implementatie-wmebv)
   - [7.2. Bronnen](#72-bronnen)
@@ -381,6 +377,8 @@ Vervolgens is er onderzoek gedaan om te komen tot een prototype in Figma op basi
 
 ### 6.3.3. Ontwerp
 
+Voor het ontwerp is gebruik gemaakt van de NL Design System 'Voorbeeld'-bibliotheek met het paars-witte 'Voorbeeld'-thema voor Figma. Met behulp van deze bibliotheek kon er in relatief korte tijd een schermflow gebouwd worden. Het scheelt enorm veel tijd als er gebruik gemaakt wordt van de Voorbeeld-bibliotheek omdat het opzetten van een bibliotheek al is gedaan. Stel dat er voor een ander thema van de Voorbeeld-thema gekozen zou worden dan hoeven enkel de [design tokens](#621-design-tokens) voorzien te worden van het eigen thema. Voor meer informatie over hoe dit in zijn werk gaat binnen Figma wordt verwezen naar de [pagina voor designers met NL Design System](https://nldesignsystem.nl/meedoen/als-designer/overzicht).
+
 #### 6.3.3.1. Scenario
 
 Om de use case van dit generieke formulier te ondersteunen en te kunnen testen is nagedacht over een scenario waarin dit formulier gebruikt zou kunnen worden. Om het scenario aan te laten sluiten bij op de Wmebv, is in overleg met een jurist gekomen tot een situatie waarbij de fictieve burger (een persona) Jeroen van Drouwen de gemeente waarin hij woonachtig is (Gemeente Voorbeeld) in gebreken stelt. Het in gebreken stellen heeft een juridisch gevolg, dus valt deze 'vraag aan de gemeente'in de categorie 'Formele berichten' en is de Wmebv dus van toepassing.
@@ -439,13 +437,8 @@ In het korte scenario, waarin Jeroen niet via DigiD inlogt opent hij Gmail en zi
 MijnOmgeving.\
 In de MijnOmgeving beland Jeroen op het overzicht-scherm kan hij kan via 'Mijn zaken', de reactie van de gemeente op zijn vraag vinden.
 
-#### 6.3.3.3. Tooling
 
-Voor het ontwerp van de schermen is gebruik gemaakt van de design tool [Figma](https://www.figma.com/design/). In de volgende paragraaf worden de Figma schermen getoond. Deze schermen kunnen ook in de [VNG Wmebv Figma omgeving](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1) bekeken worden, hiervoor dient echter een gratis Figma account aangemaakt te worden.
-
-Voor het ontwerp is gebruik gemaakt van de NL Design System 'Voorbeeld'-bibliotheek met het paars-witte 'Voorbeeld'-thema voor Figma. Met behulp van deze bibliotheek kon er in relatief korte tijd een schermflow gebouwd worden. Het scheelt enorm veel tijd als er gebruik gemaakt wordt van de Voorbeeld-bibliotheek omdat het opzetten van een bibliotheek al is gedaan. Stel dat er voor een ander thema van de Voorbeeld-thema gekozen zou worden dan hoeven enkel de [design tokens](#621-design-tokens) voorzien te worden van het eigen thema. Voor meer informatie over hoe dit in zijn werk gaat binnen Figma wordt verwezen naar de [pagina voor designers met NL Design System](https://nldesignsystem.nl/meedoen/als-designer/overzicht).
-
-### 6.3.4. Ontwikkeling
+### 6.3.4. Development
 
 <mark>
 - (vragen aan Mees/Robbert/Yolijn)
@@ -454,7 +447,7 @@ Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwez
 Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv).
 </mark>
 
-### 6.3.5. Testen met gebruikers
+### 6.3.5. Usability test
 
 <mark>
 8 participanten
@@ -472,9 +465,7 @@ Stichting Accessibility + op locatie en online meekijken + mogelijkheid vragen v
 </mark>
 <div style="page-break-after: always"></div>
 
-## 6.4. Specifiek: Uitwerking generiek e-formulier
-
-### 6.4.1. Figma ontwerpen en Wmebv-ontwerpadviezen
+## 6.4. Specifiek: Figma ontwerpen, advies en vervolgonderzoek
 
 De volgende schermen kunnen ook in de [VNG Wmebv Figma omgeving](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1) bekeken worden, hiervoor dient echter een gratis Figma account aangemaakt te worden.
 Bij elk scherm zijn de ontwerpadviezen aangegeven. Deze adviezen zijn voortgekomen uit het usability onderzoek dat heeft plaatsgevonden op 16 en 17 november 2023.
@@ -561,14 +552,6 @@ Figma schermen met een nagebooste Gmail omgeving voor scenario E_lang:
 <mark>_**Ontwerpadvies 16:** ..._</mark>
 
 Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1) en bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv)
-
-### 6.4.2. Development en Code Snippets
-
-<mark>(To come op NL Design System website)</mark>
-
-### 6.4.3. Usability Testresultaten 
-
-<mark>(To come...)</mark>
 
 # 7. Bronnen en overige informatie
 
