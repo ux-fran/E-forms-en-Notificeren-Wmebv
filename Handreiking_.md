@@ -400,38 +400,39 @@ B.\
 Jeroen Komt op de intro-pagina van het ‘Vraag aan de gemeente’-formulier uit.Daar kan hij een aantal punten lezen. Hoelang het formulier ongeveer duurt, dat hij verplichte en optionele velden kan aantreffen, dat hij het tussentijds kan opslaan en later verder gaan en dat er een bevestiging-email gestuurd gaat worden. Tot slot kan hij lezen dat het ingevulde formulier gedownload en geprint kan worden.Jeroen klikt op Doorgaan
 
 C.\
-Vervolgens moet Jeroen een keuze maken. Wil hij inloggen of niet. Beide paden worden ondersteund in het ontwerp en in de uiteindelijke ontwikkeling. Echter, zal er het DigiD-gedeelte worden overgeslagen omdat dit buiten de scope van dit project ligt.
+Vervolgens moet Jeroen een keuze maken. Wil hij inloggen of niet? Beide paden worden ondersteund in het ontwerp en in de uiteindelijke ontwikkeling. Echter, zal het DigiD-gedeelte worden overgeslagen omdat dit buiten de scope van dit project ligt.
 
 D.\
-Indien Jeroen ervoor kiest om in te loggen, zal er een zeer eenvoudig scherm verschijnen met "Doe alsof u inlogt met DigiD" om zo tijdens de usability test zeer duidelijk te maken dat er niet werkelijk wordt ingelogd met DigiD.
+Indien Jeroen ervoor kiest om in te loggen, zal er een zeer eenvoudig scherm verschijnen met de tekst "Doe alsof u inlogt met DigiD" om zo tijdens de usability test zeer duidelijk te maken dat er niet werkelijk wordt ingelogd met DigiD.
 
 E stap 1/4.\
 Nadat Jeroen al dan niet is ingelogd komt hij op de eerste pagina van het generieke e-formulier.\
 Jeroen typt:\
 _Beste meneer of mevrouw, Ik heb meer dan 8 weken geleden een aanvraag voor bijstandsuitkering gedaan maar ik heb nog steeds niets gehoord. Volgens mij had u allang op mijn aanvraag moeten beslissen.\ 
 Met vriendelijke groet,Jeroen van Drouwen_\
-Jeroen upload niets en Jeroen klikt op ‘Volgende stap’
+Jeroen voegt geen bestanden toe en klikt op ‘Volgende stap’.
 
 E stap 2/4.\
-Als Jeroen niet is ingelogd via DigiD, zijn al zijn gegevens nog niet vooringevuld. Als Jeroen wel is ingelogd zijn zijn gegevens wel voor ingevuld en hoeft hij ze enkel te controleren. Hij heeft geen optie om zijn gegevens te kunnen wijzigen behalve voor zijn telefoonnummer en e-mailadres. Jeroen vult zijn gegevens in, indien mogelijk met behulp van de Autocomplete functie van de computer.\
+Als Jeroen niet is ingelogd via DigiD, zijn zijn gegevens niet vooringevuld. Als Jeroen wel is ingelogd via DigiD, zijn zijn gegevens wel vooringevuld en hoeft hij deze enkel te controleren. Hij heeft in dat geval geen optie om zijn gegevens te kunnen wijzigen behalve voor zijn telefoonnummer en e-mailadres. Jeroen vult zijn gegevens in, indien mogelijk met behulp van de Autocomplete functie van de computer.\
 _Jeroen van Drouwen\
 Laan der voorbeelden 99\
 1024 VP Voorbeeld\
 j.vandrouwen@EenNepEmailAdres.com\
 06006118346\
-Jeroen klikt op 'Volgende stap'
+Jeroen klikt op 'Volgende stap'.
 
 Note: Tijdens de Usability test vragen we de mensen hun eigen autocomplete te gebruiken en leggen we uit dat we in dit scenario doen alsof Jeroen zijn gegevens dan worden ingevuld. Ook benadrukken we dat hun gegevens niet worden opgeslagen.
 
 E stap 3/4.\
 Controleer de ingevulde gegevens en verzend het formulier (E 4/4).\
-Na het verzenden zou je een e-mailnotificatie moeten ontvangen waarin wordt bevestigd dat de gemeente jouw vragen en opmerkingen heeft ontvangen. Bekijk de e-mail en vertel ons wat je ervan vindt.
+
+Na het verzenden zou je per e-mail een notificatie moeten ontvangen waarin wordt bevestigd dat de gemeente jouw bericht heeft ontvangen. Bekijk de e-mail en vertel ons wat je ervan vindt. @fran volgens mij is dit nog niet juist?
 
 E stap  4/4.\
-Op dit scherm staat groot 'Uw vraag is met succes verstuurd'. Het In het scenario waarin Jeroen niet inlogt, wordt er op dit scherm een opsomming gegeven waarin staat dat er een bevestigingsmail naar Jeroen zijn e-mailadres gestuurd is en dat afdeling 'Vraagbaak'met de vraag aan de slag gaat. In het scenario waarin Jeroen wel gaat inloggen staat er als extra punt bij dat hij de voortgang in de MijnOmgeving kan volgen.
+Op dit scherm staat groot 'Uw vraag is met succes verstuurd'. In het scenario waarin Jeroen niet inlogt, wordt er op dit scherm een opsomming gegeven waarin staat dat er een bevestigingsmail naar Jeroen zijn e-mailadres gestuurd is en dat afdeling 'Vraagbaak' met de vraag aan de slag gaat. In het scenario waarin Jeroen wel gaat inloggen staat er als extra punt bij dat hij de voortgang in de MijnOmgeving kan volgen.
 
 Vervolg het scenario buiten de Gemeente Voorbeeld omgeving:\
-Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma scherm, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de Usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
+Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma prototype, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de usability test zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
 
 Gmail.\
 In het korte scenario, waarin Jeroen niet via DigiD inlogt opent hij Gmail en ziet daar de ontvangstbevestiging staan met een digitaal toegankelijke, met Markdown gegenereerde pdf met zijn ingevulde vraag en contactgegevens. Indien er via de ingelogde route is gegaan, dan luidt het scenario dat er binnen 48 uur een reactie is binnen gekomen via Gmail. Jeroen van Drouwen open zijn email en ziet een mailtje van gemeente Voorbeeld staan waarin aangegeven wordt dat hij via zijn MijnOmgeving de reactie van de gemeente kan inzien.
@@ -459,7 +460,7 @@ De samenstelling van de participanten was als volgt:
 
 - 6 laaggeletterden
 - 1 fysiek beperkt
-- 1 visueel beperkt
+- 1 visueel beperkt @fran. De persoon die ziek was was ook visueel beperkt toch. En die meneer had een Cognitieve beperking.
 
 Het onderzoek bestond uit de volgende onderdelen:
 
@@ -488,9 +489,9 @@ _**Ontwerpadvies 1:** Dit scherm is onderverdeeld in een aantal verschillende on
 
 **Scherm B - Uitleg over het formulier:** Een scherm met uitleg over wat de gebruiker te wachten staat, tijdens het invullen van het 'Vraag aan de gemeente' e-formulier.\
 ![Scherm B](.media/SchermB.svg)\
-_**Ontwerpadvies en suggesties voor vervolgonderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd niet voor iedereen geldt. Uit nader onderzoek moet blijken hoe de hoeveelheid werk, om het formulier in te vullen, inclusiever kan worden uitgedrukt._
+_**Ontwerpadvies en suggesties voor vervolgonderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd niet voor iedereen geldt. Uit nader onderzoek moet blijken hoe de hoeveelheid werk, om het formulier in te vullen, inclusiever kan worden uitgedrukt._ @fran uit het usability onderzoek bleek dat '5 minuten' verschillend werd ervaren. Enkele respondenten vonden 5 minten te lang klinken. Andere verwachten dat zij hier juist langer over zouden doen. Deze indicatie van '5 minuten' bleek dus niet veel toe te voegen. Wanneer een formulier lang kan duren, ongeacht beperking of niet, zou een tijdsindicatie wellicht wel handig zijn.
 
-_**Ontwerpadvies en suggesties voor vervolgonderzoek 3:** Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Iot nader onderzoek moet blijken of het markeren van verplichte velden niet toch een betere manier is. Het merendeel van de respondenten gaf aan het verwarrend te vinden._
+_**Ontwerpadvies en suggesties voor vervolgonderzoek 3:** Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability test dat mensen dit niet duidelijk vonden en dat de 'Niet verplicht' gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huisnummer toevoeging. Uit nader onderzoek moet blijken of het markeren van verplichte velden niet toch een betere manier is. Het merendeel van de respondenten gaf aan het verwarrend te vinden._ @fran: Ik vind dit toch een te voorbarige conclusie. Ik zou eerder willen toetsen of we de intro tekst en misschien toch het niet B1 woord 'Optioneel' beter zou werken.
 <div style="page-break-after: always"></div>
 
 **Scherm C - Inloggen:** Keuzescherm om in te loggen\
@@ -574,7 +575,7 @@ Voor meer informatie over een mogelijke aanpak voor de implementatie van de Wmeb
 1. Wat vraagt de Wmebv?
 2. Hoe kan ik het aanpakken?
 3. Slim digitaliseren met de [omnichannelaanpak](https://vng.nl/omnichannel).
-4. Analyse huidige digitale kanalen met behulp van de [Uniforme Productnamen Lijst](https://vng.nl/projecten/uniforme-productnamen-lijst-upl)
+4. Analyse huidige digitale kanalen met behulp van de [Uniforme Productnamen Lijst](https://vng.nl/projecten/uniforme-productnamen-lijst-upl).
 5. Besluit en communiceer de gekozen kanalen.
 6. Bepaal uw beleid t.a.v. een ([Omnichannel](https://vng.nl/omnichannel)) kanaalstrategie.
 7. Aan de gang met implementeren.
@@ -583,7 +584,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 
 **Zorgplicht bij de dienstverlening:**
 
-1. Bepaal welke belemmeringen inwoners ervaren
+1. Bepaal welke belemmeringen inwoners ervaren.
 2. Bepaal hoe u belemmeringen kunt wegnemen.
 3. Leg uw keuzes voor zorgplicht vast in een beleidsdocument.
 4. Communiceer hoe uw gemeente ondersteunt bij de dienstverlening.
