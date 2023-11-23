@@ -55,7 +55,7 @@ Vereniging voor Nederlandse Gemeenten
 
 ## 3.1. Totstandkoming handreiking
 
-Deze handreiking is tot stand gekomen in opdracht van de Vereniging van Nederlandse Gemeenten Realisatie (VNGR) in samenwerking met NL Design System. Voor de handreiking zijn verschillende bronnen gebruikt. Naast desk-research is er een generiek e-formulier op basis van het NL Design System ontworpen en ontwikkeld. Het generieke e-formulier en de bijbehorende scenario's zijn ontwikkeld om inzage te geven in hoe enerzijds omgegaan zou kunnen worden met producten die nog niet beschikken over een e-formulier en anderzijds om te laten zien hoe met het gebruik van NL Design System binnen een relatief korte tijd gekomen kan worden tot een gebruikersvriendelijk en toegankelijk e-formulier. Het e-formulier en de bijbehorende vervolgschermen, en daarmee dus het scenario, zijn voorgelegd aan experts binnen de VNG, de NL Design System Community en tevens getoetst door Stichting Accessibility zodat deze handreiking in de praktijk gevalideerd is.
+Deze handreiking is tot stand gekomen in opdracht van de Vereniging van Nederlandse Gemeenten Realisatie (VNGR) in samenwerking met NL Design System. Voor de handreiking zijn verschillende bronnen gebruikt. Naast desk-research is er een generiek e-formulier op basis van het NL Design System ontworpen en ontwikkeld. Het generieke e-formulier en de bijbehorende scenario's zijn ontwikkeld om inzage te geven in hoe enerzijds omgegaan zou kunnen worden met producten die nog niet beschikken over een e-formulier en anderzijds om te laten zien hoe met het gebruik van NL Design System binnen een relatief korte tijd gekomen kan worden tot een gebruikersvriendelijk en toegankelijk e-formulier. Het e-formulier en de bijbehorende vervolgschermen, en daarmee dus het scenario, zijn voorgelegd aan experts binnen de VNG, de NL Design System Community en tevens getoetst op gebruikersvriendelijkheid en digitale toegankelijkheid door Stichting Accessibility zodat deze handreiking in de praktijk gevalideerd is.
 
 ## 3.2. Doel van deze handreiking
 
@@ -68,7 +68,7 @@ De doel van deze handreiking is om inzichten te delen betreft het ontwerpen en o
 
 ## 3.3. Doelgroep
 
-Deze handreiking is bestemd voor ieder die meer te weten wil komen over het Wmebv proof maken van e-formulieren en notificaties.
+Deze handreiking is bestemd voor een ieder die meer te weten wil komen over het Wmebv-proof maken van e-formulieren.
 
 ## 3.4. Samenwerkingspartners
 
@@ -88,13 +88,13 @@ Bron: [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verk
 De Wmebv is een belangrijk element in de bredere digitale transformatie van overheidsdiensten in Nederland en het is ontworpen om de overgang naar een meer digitaal georiënteerd bestuurlijk verkeer te vergemakkelijken.
 
 - Wmebv is een wijziging van de Algemene Wet Bestuursrecht.
-- Wmebv geeft het recht op digitaal communiceren met bestuursorganen.
+- Wmebv geeft het recht op digitaal communiceren met bestuursorganen voor burgers en bedrijven.
 - Wmebv stelt het openstellen van digitale kanalen verplicht, voor ieder formeel bestuurlijk bericht gericht aan het bestuursorgaan.
 - Wmebv resulteert in het aanpassen van digitale kanalen zodat het aan de wettelijk gestelde eisen voldoet.
 
 ## 4.2. Wat zijn 'Formele berichten'?
 
-Voordat er iets dieper ingegaan wordt over de Wmebv, is het belangrijk om aan te geven om wat voor berichtenverkeer het gaat in de Wmebv. In de diverse documentatie betreffende de Wmebv wordt er op verschillende manieren gerefereerd naar het 'Elektronisch Bestuurlijk Verkeer'. Dit verkeer, in de vorm van digitale berichten, wordt in diverse documentatie ook wel 'Officiële berichten', 'Formele berichten' en 'Formeel officiële berichten' genoemd. In alle gevallen wordt hetzelfde bedoeld. In deze handreiking wordt de term 'formele berichten' aangehouden. Met het 'elektronisch bestuurlijk verkeer' worden dus de 'formele berichten' bedoeld en deze verwijzen doorgaans naar officiële communicatie tussen verschillende bestuurlijke niveaus binnen een overheid. Deze berichten bevatten vaak belangrijke mededelingen, beslissingen, of andere informatie van juridische of bestuurlijke aard. Enkele veelvoorkomende voorbeelden:
+Voordat er iets dieper ingegaan wordt op de Wmebv, is het belangrijk om aan te geven om wat voor berichtenverkeer het gaat in de Wmebv. In de diverse documentatie betreffende de Wmebv wordt er op verschillende manieren gerefereerd naar het 'Elektronisch Bestuurlijk Verkeer'. Dit verkeer, in de vorm van digitale berichten, wordt in diverse documentatie ook wel 'Officiële berichten', 'Formele berichten' en 'Formeel officiële berichten' genoemd. In alle gevallen wordt hetzelfde bedoeld. In deze handreiking wordt de term 'formele berichten' aangehouden. Met het 'elektronisch bestuurlijk verkeer' worden dus de 'formele berichten' bedoeld en deze verwijzen doorgaans naar officiële communicatie tussen verschillende bestuurlijke niveaus binnen een overheid. Deze berichten bevatten vaak belangrijke mededelingen, beslissingen, of andere informatie van juridische of bestuurlijke aard. Enkele veelvoorkomende voorbeelden:
 
 - Berichten die deel uit maken van een procedure of besluit (zoals bijvoorbeeld: een aanvraag, zienswijze, ingebrekestelling of bezwaarschrift).
 - Een klacht.
@@ -107,7 +107,7 @@ Het exacte bereik en de aard van formele berichten kunnen sterk variëren, dus h
 ## 4.3. Wmebv schematisch weergegeven
 
 Om toch in deze handreiking een idee te geven van de strekking van de Wmebv, wat veel verder strekt dan enkel e-formulieren en notificaties, worden de belangrijkste aspecten op een rij gezet.
-Zie echter voor een zeer uitgebreide toelichting op de Wmebv de [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verkeer (Awb) 2023.](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2017/04/Handreiking-implementatie-Wet-modernisering-elektronisch-bestuurlijk-verkeer-2023.pdf) van het Ministerie van Binnenlandse Zaken.
+Zie voor een zeer uitgebreide toelichting op de Wmebv ook de [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verkeer (Awb) 2023.](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2017/04/Handreiking-implementatie-Wet-modernisering-elektronisch-bestuurlijk-verkeer-2023.pdf) van het Ministerie van Binnenlandse Zaken.
 
 Allereerst is het belangrijk om te weten dat de Wmebv over processen of beter gezegd, communicatiestromen gaat. Communicatiestromen tussen burger en overheidsinstantie. De stroom van een formeel bericht kent een begin en een eind. De stroom verloopt in verschillende fasen. Een formeel bericht wordt geïnitieerd (zie het schema: 'Voor ontvangst') en vervolgens verstuurd. Als het goed gaat, wordt het bericht ontvangen door de overheidsinstantie (zie het schema: 'Na ontvangst'). Vervolgens wordt het bericht in behandeling genomen en tijdens de behandeling kunnen vervolgacties voor de burger of instantie voortvloeien. Deze acties worden uitgevoerd, gelogd en er wordt over gecommuniceerd (zie het schema: 'Uitgaande formele berichten'), net zolang tot de behandeling van de initiële vraag of de daaruit voortgevloeide vragen of acties afgehandeld zijn. Naast de ze digitale communicatiestroom van formele berichten tussen burger en instantie, regelt de Wmebv een zorgplicht die stelt dat er voor passende ondersteuning gezorgd moet worden voor de mensen die minder goed mee kunnen komen in de digitale wereld.\
 ![Wmebv-schema.png](.media/img_7.png)\
@@ -202,34 +202,34 @@ Bij het toetsen van formulieren en notificaties Wmebv is het van belang om te zo
 
 ## 5.1. Digitale Toegankelijkheid en Gebruikersvriendelijkheid
 
-Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor [digitale toegankelijkheid](https://digitaaltoegankelijk.nl/over-digitale-toegankelijkheid/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5pwysW_wLxGEtgB5WBIudRJTs5oxdsWq63pcDaPVHx0wiFQwHvbKfQRoCnssQAvD_BwE), zoals vastgesteld in de [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). De meest voor de hand liggende punten om rekening mee te houden:
+Zorg ervoor dat formulieren en notificaties voldoen aan de normen voor [digitale toegankelijkheid](https://digitaaltoegankelijk.nl/over-digitale-toegankelijkheid/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5pwysW_wLxGEtgB5WBIudRJTs5oxdsWq63pcDaPVHx0wiFQwHvbKfQRoCnssQAvD_BwE), zoals vastgesteld in de [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). De meest voor de hand liggende punten om rekening mee te houden:
 
-- De **structuur** van het formulier zowel in de frontend als de backend moet goed in elkaar zitten, vermijd, indien mogelijk, een horizontale layout. Voorzie alle invulvelden van een label en stapel de velden.
+- De **structuur** van het formulier zowel in de frontend als de backend moet goed in elkaar zitten, vermijd, indien mogelijk, een horizontale layout en zorg ervoor dat de labels en velden aan elkaar gekoppeld zijn in de code. Voorzie alle invulvelden van een label en stapel de velden het liefst. Note: Hoewel een horizontale layout is geen WCAG criterium,biedt wel toegankelijkheidsvoordelen. Denk bijvoorbeeld aan mensen met kokervisie, die met een gestapelde layout makkelijker het formulier van boven naar beneden kunnen lezen.
   
-  ![Structuur formulier](.media/gestapeldeVelden.png)\
+  ![Voorbeeld van formulier met gestapelde layout](.media/gestapeldeVelden.png)\
   Afbeelding: Gestapelde labels en velden.
 
-  **_Advies onderzoeksvraag:_**\
-  _Wordt het formulier met een screen reader in de juiste volgorde voorgelezen?_
+  **Advies onderzoeksvraag:**\
+  Wordt het formulier met een screen reader in de juiste volgorde voorgelezen?
   <div style="page-break-after: always"></div>
 
-- Maak **foutmeldingen** visueel en tekstueel duidelijk. Leid de gebruiker naar de plek waar de fout opgelost moet worden.
-  ![Foutmeldingen](.media/Foutmeldingen.png)\
+- Maak **foutmeldingen** visueel en tekstueel duidelijk, dit is een van de WCAG normen. Om het gebruikersvriendelijk te maken is het fijn om de gebruiker naar de plek waar de fout opgelost moet worden te leiden.
+  ![Een voorbeeld van foutmeldingen binnen een formulier](.media/Foutmeldingen.png)\
   Afbeelding: Foutmeldingen in een e-formulier
   
-  **_Advies onderzoeksvraag:_**\
-  _Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder in de stress te raken, de fouten in het formulier vinden en oplossen?_
+  **Advies onderzoeksvraag:**\
+  Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder in de stress te raken, de fouten in het formulier vinden en oplossen?
 
-- Zorg ervoor dat formulieren met het toetsenbord bediend kunnen worden.
-- Houd rekening met tijdslimieten waarin een formulier ingevuld moet worden, niet iedereen kan dit in een vergelijkbaar tempo.
+- Zorg ervoor dat formulieren met het toetsenbord bediend kunnen worden, dit is een [WCAG criterium](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1#keyboard).
+- Houd rekening met tijdslimieten waarin een formulier ingevuld moet worden, niet iedereen kan dit in een vergelijkbaar tempo. Dit is  eveneens een [WCAG criterium](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1#timing-adjustable).
   
-  **_Advies onderzoeksvraag:_**\
-   _Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder muis en met een toetsenbord eenvoudig door het formulier navigeren binnen een eventueel gestelde tijd?_
+  **Advies onderzoeksvraag:**\
+   Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder muis en met een toetsenbord eenvoudig door het formulier navigeren binnen een eventueel gestelde tijd?
 
 <div style="page-break-after: always"></div>
 
-- Vertrouw niet alleen op kleur en zorg voor leesbare [tekst op B1 niveau](https://ishetb1.nl/) en [test het formulier en de website op het kleurcontrast](https://www.toptal.com/designers/colorfilter) in verband met de vele vormen en gradaties van kleurenblindheid.\
-![Kleurenblindheid controle](.media/kleurenblindheidcontrole.png)\
+- Vertrouw niet alleen op kleur en zorg voor leesbare [tekst op B1 niveau](https://ishetb1.nl/). Dit is geen WCAG criterium maar wek goed voor de toegankelijkheid. [Test het formulier en de website op het kleurcontrast](https://www.toptal.com/designers/colorfilter) in verband met de vele vormen en gradaties van kleurenblindheid.\
+![Een screenshot van toptal.com waarin een voorbeeld te zien is van een kleurenblindheid controle het generieke formulier.](.media/kleurenblindheidcontrole.png)\
 Afbeelding: Screenshot van kleurenfilter test.\
 Bron: [https://www.toptal.com](https://www.toptal.com)
 
@@ -429,7 +429,7 @@ E stap  4/4.\
 Op dit scherm staat groot 'Uw vraag is met succes verstuurd'. In het scenario waarin Jeroen niet inlogt, wordt er op dit scherm een opsomming gegeven waarin staat dat er een bevestigingsmail naar Jeroen zijn e-mailadres gestuurd is en dat afdeling 'Vraagbaak' met de vraag aan de slag gaat. In het scenario waarin Jeroen wel gaat inloggen staat er als extra punt bij dat hij de voortgang in de MijnOmgeving kan volgen.
 
 Vervolg het scenario buiten de Gemeente Voorbeeld omgeving:\
-Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma protoype, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
+Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma prototype, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
 
 Gmail.\
 In het korte scenario, waarin Jeroen niet via DigiD inlogt opent hij Gmail en ziet daar de ontvangstbevestiging staan met een digitaal toegankelijke, met Markdown gegenereerde pdf met zijn ingevulde vraag en contactgegevens. Indien er via de ingelogde route is gegaan, dan luidt het scenario dat er binnen 48 uur een reactie is binnen gekomen via Gmail. Jeroen van Drouwen open zijn email en ziet een mailtje van gemeente Voorbeeld staan waarin aangegeven wordt dat hij via zijn MijnOmgeving de reactie van de gemeente kan inzien.
@@ -444,7 +444,7 @@ TODO
 - (vragen aan Mees/Robbert/Yolijn) | 
 - houd de NLDS site in de gaten voor code snippets |
 Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwezen naar de [pagina voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht). |
-Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). |
+Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). | https://nldesignsystem.nl/richtlijnen/formulieren/overzicht
 </mark>
 
 ### 6.3.5. Usability test
@@ -596,7 +596,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Video's - VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies)
 - [Notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer)
 - [Video - Kennissessie 3: Zorgplicht](https://vng.nl/wmebv-webinars-en-kennissessies)
-- [Digitale toegankelijkheid](https://digitaaltoegankelijk.nl/over-digitale-toegankelijkheid/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5pwysW_wLxGEtgB5WBIudRJTs5oxdsWq63pcDaPVHx0wiFQwHvbKfQRoCnssQAvD_BwE)
+- [Digitale toegankelijkheid](https://digitaaltoegankelijk.nl/)
 - [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Tekst op B1 niveau](https://ishetb1.nl/)
 - [Testen op kleurcontrast](https://www.toptal.com/designers/colorfilter)
