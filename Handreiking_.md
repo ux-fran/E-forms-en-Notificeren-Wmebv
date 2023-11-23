@@ -3,7 +3,7 @@
 
 _Auteur_\
 Francesca Vonk MSc - Senior UX Designer\
-Vereniging voor Nederlandse Gemeenten
+Vereniging van Nederlandse Gemeenten
 
 # 2. Inhoudsopgave
 
@@ -55,11 +55,11 @@ Vereniging voor Nederlandse Gemeenten
 
 ## 3.1. Totstandkoming handreiking
 
-Deze handreiking is tot stand gekomen in opdracht van de Vereniging van Nederlandse Gemeenten Realisatie (VNGR) in samenwerking met NL Design System. Voor de handreiking zijn verschillende bronnen gebruikt. Naast desk-research is er een generiek e-formulier op basis van het NL Design System ontworpen en ontwikkeld. Het generieke e-formulier en de bijbehorende scenario's zijn ontwikkeld om inzage te geven in hoe enerzijds omgegaan zou kunnen worden met producten die nog niet beschikken over een e-formulier en anderzijds om te laten zien hoe met het gebruik van NL Design System binnen een relatief korte tijd gekomen kan worden tot een gebruikersvriendelijk en toegankelijk e-formulier. Het e-formulier en de bijbehorende vervolgschermen, en daarmee dus het scenario, zijn voorgelegd aan experts binnen de VNG, de NL Design System Community en tevens getoetst door Stichting Accessibility zodat deze handreiking in de praktijk gevalideerd is.
+Deze handreiking is tot stand gekomen in opdracht van de Vereniging van Nederlandse Gemeenten Realisatie (VNGR) in samenwerking met NL Design System. Voor de handreiking zijn verschillende bronnen gebruikt. Naast desk-research is er een generiek e-formulier op basis van het NL Design System ontworpen en ontwikkeld. Het generieke e-formulier en de bijbehorende scenario's zijn ontwikkeld om inzage te geven in hoe enerzijds omgegaan zou kunnen worden met producten die nog niet beschikken over een e-formulier en anderzijds om te laten zien hoe met het gebruik van NL Design System binnen een relatief korte tijd gekomen kan worden tot een gebruikersvriendelijk en toegankelijk e-formulier. Het e-formulier en de bijbehorende vervolgschermen, en daarmee dus het scenario, zijn voorgelegd aan experts binnen de VNG, de NL Design System Community en tevens getoetst op gebruikersvriendelijkheid en digitale toegankelijkheid door Stichting Accessibility zodat deze handreiking in de praktijk gevalideerd is.
 
 ## 3.2. Doel van deze handreiking
 
-De doel van deze handreiking is om inzichten te delen betreft het ontwerpen en ontwikkelen van een generiek e-formulier op basis van NL Design System zodat deze voldoet aan de wet modernisering bestuurlijk verkeer (Wmebv). Tevens wordt gekeken naar wat de Wmebv betekent voor notificaties. De volgende onderwerpen worden in deze handreiking behandeld:
+Het doel van deze handreiking is om inzichten te delen betreft het ontwerpen en ontwikkelen van een generiek e-formulier op basis van NL Design System zodat deze voldoet aan de wet modernisering bestuurlijk verkeer (Wmebv). Tevens wordt gekeken naar wat de Wmebv betekent voor notificaties. De volgende onderwerpen worden in deze handreiking behandeld:
 
 - Wmebv in het kort.
 - Ontwerpcriteria voor het maken van Wmebv proof e-formulieren en notificaties.
@@ -68,11 +68,11 @@ De doel van deze handreiking is om inzichten te delen betreft het ontwerpen en o
 
 ## 3.3. Doelgroep
 
-Deze handreiking is bestemd voor ieder die meer te weten wil komen over het Wmebv proof maken van e-formulieren en notificaties.
+Deze handreiking is bestemd voor een ieder die meer te weten wil komen over het maken van digitaal toegankelijke en gebruikersvriendelijke e-formulieren. Daarbij wordt extra aandacht besteed aan de punten die gelden om de e-formulieren Wmebv-proof te maken.
 
 ## 3.4. Samenwerkingspartners
 
-Deze handreiking en de bijbehorende schermvoorbeelden zijn een samenwerking van VNGR met het NL Design System kernteam, (UX) designers uit de NL Design System Community en met name de UX designer van Gemeente Den Haag, waar al veel onderzoek gedaan is naar de gebruikersvriendelijkheid van notificaties.
+Deze handreiking en de bijbehorende schermvoorbeelden zijn een samenwerking van VNGR met het NL Design System kernteam, (UX) designers uit de NL Design System Community en met name de UX-designer van Gemeente Den Haag, waar al veel onderzoek gedaan is naar de gebruikersvriendelijkheid van notificaties.
 <div style="page-break-after: always"></div>
 
 # 4. Wet Modernisering Elektronisch Bestuurlijk Verkeer
@@ -88,13 +88,13 @@ Bron: [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verk
 De Wmebv is een belangrijk element in de bredere digitale transformatie van overheidsdiensten in Nederland en het is ontworpen om de overgang naar een meer digitaal georiënteerd bestuurlijk verkeer te vergemakkelijken.
 
 - Wmebv is een wijziging van de Algemene Wet Bestuursrecht.
-- Wmebv geeft het recht op digitaal communiceren met bestuursorganen.
+- Wmebv geeft het recht op digitaal communiceren met bestuursorganen voor burgers en bedrijven.
 - Wmebv stelt het openstellen van digitale kanalen verplicht, voor ieder formeel bestuurlijk bericht gericht aan het bestuursorgaan.
 - Wmebv resulteert in het aanpassen van digitale kanalen zodat het aan de wettelijk gestelde eisen voldoet.
 
 ## 4.2. Wat zijn 'Formele berichten'?
 
-Voordat er iets dieper ingegaan wordt over de Wmebv, is het belangrijk om aan te geven om wat voor berichtenverkeer het gaat in de Wmebv. In de diverse documentatie betreffende de Wmebv wordt er op verschillende manieren gerefereerd naar het 'Elektronisch Bestuurlijk Verkeer'. Dit verkeer, in de vorm van digitale berichten, wordt in diverse documentatie ook wel 'Officiële berichten', 'Formele berichten' en 'Formeel officiële berichten' genoemd. In alle gevallen wordt hetzelfde bedoeld. In deze handreiking wordt de term 'formele berichten' aangehouden. Met het 'elektronisch bestuurlijk verkeer' worden dus de 'formele berichten' bedoeld en deze verwijzen doorgaans naar officiële communicatie tussen verschillende bestuurlijke niveaus binnen een overheid. Deze berichten bevatten vaak belangrijke mededelingen, beslissingen, of andere informatie van juridische of bestuurlijke aard. Enkele veelvoorkomende voorbeelden:
+Voordat er iets dieper ingegaan wordt op de Wmebv, is het belangrijk om aan te geven om wat voor berichtenverkeer het gaat in de Wmebv. In de diverse documentatie betreffende de Wmebv wordt op verschillende manieren gerefereerd naar het 'Elektronisch Bestuurlijk Verkeer'. Dit verkeer, in de vorm van digitale berichten, wordt in diverse documentatie ook wel 'Officiële berichten', 'Formele berichten' en 'Formeel officiële berichten' genoemd. In alle gevallen wordt hetzelfde bedoeld. In deze handreiking wordt de term 'formele berichten' aangehouden. Met het 'elektronisch bestuurlijk verkeer' worden dus de 'formele berichten' bedoeld en deze verwijzen doorgaans naar officiële communicatie tussen verschillende bestuurlijke niveaus binnen een overheid. Deze berichten bevatten vaak belangrijke mededelingen, beslissingen, of andere informatie van juridische of bestuurlijke aard. Enkele veelvoorkomende voorbeelden:
 
 - Berichten die deel uit maken van een procedure of besluit (zoals bijvoorbeeld: een aanvraag, zienswijze, ingebrekestelling of bezwaarschrift).
 - Een klacht.
@@ -102,12 +102,12 @@ Voordat er iets dieper ingegaan wordt over de Wmebv, is het belangrijk om aan te
 
 Niet-officieel bestuurlijke berichten zijn alle andere berichten zoals informele contacten.
 
-Het exacte bereik en de aard van formele berichten kunnen sterk variëren, dus het is belangrijk om de specifieke wetgeving en bestuurlijke structuren in overweging te nemen om een vollediger beeld te krijgen van welke producten onder deze term vallen. Voor deze handreiking is het echter van belang het verschil tussen niet formele berichten en formele berichten aan te duiden, om zo duidelijk te maken dat de Wmebv niet voor alle processen/producten geldt maar enkel voor de formele berichten. Voor meer verdieping in de juridische aspecten wordt verwezen naar de video-opname van [Kennissessie 1:  Juridisch Aspecten](https://youtu.be/7Vujk18JA-g) van 9 oktober 2023, die te vinden is op de website: [VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies)
+Het exacte bereik en de aard van formele berichten kunnen sterk variëren, dus is het belangrijk om de specifieke wetgeving en bestuurlijke structuren in overweging te nemen om een vollediger beeld te krijgen van welke producten onder deze term vallen. Voor deze handreiking is het echter van belang het verschil tussen niet formele berichten en formele berichten aan te duiden, om zo duidelijk te maken dat de Wmebv niet voor alle processen/producten geldt maar enkel voor de formele berichten. Voor meer verdieping in de juridische aspecten wordt verwezen naar de video-opname van [Kennissessie 1:  Juridisch Aspecten](https://youtu.be/7Vujk18JA-g) van 9 oktober 2023, die te vinden is op de website: [VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies)
 
 ## 4.3. Wmebv schematisch weergegeven
 
 Om toch in deze handreiking een idee te geven van de strekking van de Wmebv, wat veel verder strekt dan enkel e-formulieren en notificaties, worden de belangrijkste aspecten op een rij gezet.
-Zie echter voor een zeer uitgebreide toelichting op de Wmebv de [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verkeer (Awb) 2023.](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2017/04/Handreiking-implementatie-Wet-modernisering-elektronisch-bestuurlijk-verkeer-2023.pdf) van het Ministerie van Binnenlandse Zaken.
+Zie voor een zeer uitgebreide toelichting op de Wmebv ook de [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verkeer (Awb) 2023.](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2017/04/Handreiking-implementatie-Wet-modernisering-elektronisch-bestuurlijk-verkeer-2023.pdf) van het Ministerie van Binnenlandse Zaken.
 
 Allereerst is het belangrijk om te weten dat de Wmebv over processen of beter gezegd, communicatiestromen gaat. Communicatiestromen tussen burger en overheidsinstantie. De stroom van een formeel bericht kent een begin en een eind. De stroom verloopt in verschillende fasen. Een formeel bericht wordt geïnitieerd (zie het schema: 'Voor ontvangst') en vervolgens verstuurd. Als het goed gaat, wordt het bericht ontvangen door de overheidsinstantie (zie het schema: 'Na ontvangst'). Vervolgens wordt het bericht in behandeling genomen en tijdens de behandeling kunnen vervolgacties voor de burger of instantie voortvloeien. Deze acties worden uitgevoerd, gelogd en er wordt over gecommuniceerd (zie het schema: 'Uitgaande formele berichten'), net zolang tot de behandeling van de initiële vraag of de daaruit voortgevloeide vragen of acties afgehandeld zijn. Naast de ze digitale communicatiestroom van formele berichten tussen burger en instantie, regelt de Wmebv een zorgplicht die stelt dat er voor passende ondersteuning gezorgd moet worden voor de mensen die minder goed mee kunnen komen in de digitale wereld.\
 ![Wmebv-schema.png](.media/img_7.png)\
@@ -165,15 +165,37 @@ Tot slot dient de gemeente bewijslast te hebben, dat betekent dat er een systeem
 Dit blok is niet verder onderverdeeld in fasen. Bij dit blok geld dat de Wmebv regelt dat als er genotificeerd wordt, dat er met een aantal zaken rekening gehouden moeten worden. Namelijk:
 
 - De afzender moet worden vermeld.
-- DE aard van het bericht moet worden vermeld (Bijv. ontvangstbevestiging, beschikking, betalingsverplichting etc.).
-- DE een reactietermijn moet worden vermeld.
+- De aard van het bericht moet worden vermeld (Bijv. ontvangstbevestiging, beschikking, betalingsverplichting etc.).
+- Een reactietermijn moet worden vermeld.
 - Indien een bericht of notificatie niet bezorgd kan worden (een 'bounce') dan moet het minimaal eenmaal opnieuw verzonden worden.
 - De gemeente heeft een inspanningsverplichting om het juiste e-mailadres te achterhalen.
-- Notificaties moeten op andere wijze verzonden kunnen worden.
+- Notificaties moeten op andere wijze, middels een alternatief kanaal, verzonden kunnen worden indien het voor de tweede keer niet bezorgd kan worden (bounce).
+
+Note: Het is belangrijk te weten dat er in de documentatie over de Wmebv gesproken wordt over 'Berichten' en 'Notificaties'. Met een 'Notificatie' wordt de burger of het bedrijf op de hoogte gesteld dat er een 'Bericht' beschikbaar. Denk bijvoorbeeld aan de 'e-mail notificatie':
+>Geachte J. van Drouwen,\
+Er staat document in iw Berichtenbox van RDW. Log in op MijnOverheid om het bericht te bekijken. 
+Mogelijk moet u naar aanleiding van dit bericht actie ondernemen. Lees het daarom op tijd.\
+Met vriendelijke groet,\
+MijnOverheid
+
+Het 'bericht in de Berichtenbox' zelf bevat dan de inhoud, bijvoorbeeld:
+> Herinnering APK\
+> \
+> Datum: 09 oktober 2022 16:20\
+> Afzender: RDW\
+> Referentie: \[kenteken\]\
+> Postvak: Inbox\
+> \
+> Geachte heer/mevrouw,
+>
+> uw voertuig is toe aan de Algemene Periodieke Keuring, kortweg APK. In de bijlage van deze e-mail kunt u lezen voor welke datum uw voertuig APK-goedgekeurd moet zijn\
+> \
+> Met vriendelijke groet,\
+> RDW
 
 In het volgende hoofdstuk wordt nog iets dieper ingegaan op notificaties.\
-_**Wmebv-ontwerpadvies:**\
-Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten. Voor meer gedetailleerde informatie over notificaties wordt verwezen naar [de bijdrage over notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer) Waar onder andere toelichting gegeven wordt op de nieuwe notificatie templates die door hen ontwikkeld zijn. Het meest recente UX onderzoek naar communicatie templates vond plaats in oktober 2023, de resultaten zullen naar verwachting spoedig beschikbaar zijn. Ook worden nieuwe technische mogelijkheden zoals een nieuwe variabele voor een 'einddatum handelingstermijn' in meer detail besproken._\
+**Wmebv-ontwerpadvies:**\
+Denk bij het ontwerpen van deze communicatie aan de hierboven genoemde punten. Voor meer gedetailleerde informatie over notificaties wordt verwezen naar [de bijdrage over notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer) Waar onder andere toelichting gegeven wordt op de nieuwe notificatie templates die door hen ontwikkeld zijn. Het meest recente UX onderzoek naar communicatie templates vond plaats in oktober 2023. Ook worden nieuwe technische mogelijkheden zoals een nieuwe variabele voor een 'einddatum handelingstermijn' in meer detail besproken.
 
 De gemeente heeft tevens een bewijslast en moet het volgende kunnen bewijzen:
 
@@ -202,34 +224,34 @@ Bij het toetsen van formulieren en notificaties Wmebv is het van belang om te zo
 
 ## 5.1. Digitale Toegankelijkheid en Gebruikersvriendelijkheid
 
-Zorg ervoor dat formulieren en notificaties voldoen aan de richtlijnen voor [digitale toegankelijkheid](https://digitaaltoegankelijk.nl/over-digitale-toegankelijkheid/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5pwysW_wLxGEtgB5WBIudRJTs5oxdsWq63pcDaPVHx0wiFQwHvbKfQRoCnssQAvD_BwE), zoals vastgesteld in de [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). De meest voor de hand liggende punten om rekening mee te houden:
+Zorg ervoor dat formulieren en notificaties voldoen aan de normen voor [digitale toegankelijkheid](https://digitaaltoegankelijk.nl/over-digitale-toegankelijkheid/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5pwysW_wLxGEtgB5WBIudRJTs5oxdsWq63pcDaPVHx0wiFQwHvbKfQRoCnssQAvD_BwE), zoals vastgesteld in de [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). De meest voor de hand liggende punten om rekening mee te houden:
 
-- De **structuur** van het formulier zowel in de frontend als de backend moet goed in elkaar zitten, vermijd, indien mogelijk, een horizontale layout. Voorzie alle invulvelden van een label en stapel de velden.
+- De **structuur** van het formulier zowel in de frontend als de backend moet goed in elkaar zitten, vermijd, indien mogelijk, een horizontale layout en zorg ervoor dat de labels en velden aan elkaar gekoppeld zijn in de code. Voorzie alle invulvelden van een label en stapel de velden het liefst. Note: Hoewel een horizontale layout is geen WCAG criterium,biedt wel toegankelijkheidsvoordelen. Denk bijvoorbeeld aan mensen met kokervisie, die met een gestapelde layout makkelijker het formulier van boven naar beneden kunnen lezen.
   
-  ![Structuur formulier](.media/gestapeldeVelden.png)\
+  ![Voorbeeld van formulier met gestapelde layout](.media/gestapeldeVelden.png)\
   Afbeelding: Gestapelde labels en velden.
 
-  **_Advies onderzoeksvraag:_**\
-  _Wordt het formulier met een screen reader in de juiste volgorde voorgelezen?_
+  **Advies onderzoeksvraag:**\
+  Wordt het formulier met een screen reader in de juiste volgorde voorgelezen?
   <div style="page-break-after: always"></div>
 
-- Maak **foutmeldingen** visueel en tekstueel duidelijk. Leid de gebruiker naar de plek waar de fout opgelost moet worden.
-  ![Foutmeldingen](.media/Foutmeldingen.png)\
+- Maak **foutmeldingen** visueel en tekstueel duidelijk, dit is een van de WCAG normen. Om het gebruikersvriendelijk te maken is het fijn om de gebruiker naar de plek waar de fout opgelost moet worden te leiden.
+  ![Een voorbeeld van foutmeldingen binnen een formulier](.media/Foutmeldingen.png)\
   Afbeelding: Foutmeldingen in een e-formulier
   
-  **_Advies onderzoeksvraag:_**\
-  _Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder in de stress te raken, de fouten in het formulier vinden en oplossen?_
+  **Advies onderzoeksvraag:**\
+  Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder in de stress te raken, de fouten in het formulier vinden en oplossen?
 
-- Zorg ervoor dat formulieren met het toetsenbord bediend kunnen worden.
-- Houd rekening met tijdslimieten waarin een formulier ingevuld moet worden, niet iedereen kan dit in een vergelijkbaar tempo.
+- Zorg ervoor dat formulieren met het toetsenbord bediend kunnen worden, dit is een [WCAG criterium](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1#keyboard).
+- Houd rekening met tijdslimieten waarin een formulier ingevuld moet worden, niet iedereen kan dit in een vergelijkbaar tempo. Dit is  eveneens een [WCAG criterium](https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1#timing-adjustable).
   
-  **_Advies onderzoeksvraag:_**\
-   _Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder muis en met een toetsenbord eenvoudig door het formulier navigeren binnen een eventueel gestelde tijd?_
+  **Advies onderzoeksvraag:**\
+   Kunnen gebruikers met diverse niveaus van geletterdheid en visueel, auditieve en fysieke beperkingen, zonder muis en met een toetsenbord eenvoudig door het formulier navigeren binnen een eventueel gestelde tijd?
 
 <div style="page-break-after: always"></div>
 
-- Vertrouw niet alleen op kleur en zorg voor leesbare [tekst op B1 niveau](https://ishetb1.nl/) en [test het formulier en de website op het kleurcontrast](https://www.toptal.com/designers/colorfilter) in verband met de vele vormen en gradaties van kleurenblindheid.\
-![Kleurenblindheid controle](.media/kleurenblindheidcontrole.png)\
+- Vertrouw niet alleen op kleur en zorg voor leesbare [tekst op B1 niveau](https://ishetb1.nl/). Dit is geen WCAG criterium maar wek goed voor de toegankelijkheid. [Test het formulier en de website op het kleurcontrast](https://www.toptal.com/designers/colorfilter) in verband met de vele vormen en gradaties van kleurenblindheid.\
+![Een screenshot van toptal.com waarin een voorbeeld te zien is van een kleurenblindheid controle het generieke formulier.](.media/kleurenblindheidcontrole.png)\
 Afbeelding: Screenshot van kleurenfilter test.\
 Bron: [https://www.toptal.com](https://www.toptal.com)
 
@@ -286,7 +308,7 @@ Dit en meer is uitgebreid terug te lezen is in de [bijdrage over notificaties en
 
 ## 5.8. Testen met gebruikers
 
-Voer usability tests uit met gebruikers om inzicht te krijgen in hun ervaring en eventuele pijnpunten te identificeren. Dit kan helpen bij het verbeteren van de algehele gebruikerservaring. Goed om te weten is dat [al met vijf participanten](https://www.nngroup.com/articles/how-many-test-users/) al een groot deel van de pijnpunten aan het licht komen. Het is aan te raden gebruik te maken van instanties die gespecialiseerd zijn in het uitvoeren van usability tests, zoals [Stichting Accessibility](https://www.accessibility.nl/) of [Valsplat](https://valsplat.nl/).
+Voer usability tests uit met gebruikers om inzicht te krijgen in hun ervaring en eventuele pijnpunten te identificeren. Dit kan helpen bij het verbeteren van de algehele gebruikerservaring. Goed om te weten is dat [al met vijf participanten](https://www.nngroup.com/articles/how-many-test-users/) al een groot deel van de pijnpunten aan het licht komen. Het is aan te raden gebruik te maken van instanties die gespecialiseerd zijn in het uitvoeren van usability tests.
 
 ## 5.9. Ontwerpcriteria samengevat
 
@@ -356,18 +378,18 @@ Bron: website NL Design System
 Om de NL Design System componenten te voorzien van huisstijl wordt gebruik gemaakt van design tokens. Dit zijn ontwerpkeuzes die worden vastgelegd als data. Dit kan honderden design tokens opleveren. Uiteraard hoeven deze niet allemaal aangepast te worden, maar het geeft de mate van flexibiliteit aan. Zo zijn er globale design tokens voor de typografie, kleur en grootte. Maar ook gedetailleerde ontwerpkeuzes bijvoorbeeld voor de achtergrondkleur, omlijning of afronding van een knop. Deze design tokens samen maken een 'thema'. Hiermee zijn de componenten te voorzien van hun eigen stijl, zodat deze aansluit op de huisstijl van de organisatie. Zonder afbreuk te doen aan de digitaal toegankelijke werking ervan, mits uiteraard gehouden wordt aan de richtlijnen, denk bijvoorbeeld aan kleurcontrast, waarover werd toegelicht in paragraaf [5.1](#51-digitale-toegankelijkheid-en-gebruikersvriendelijkheid). Om nog iets dieper in te gaan op de samenwerking tussen ontwerpers en ontwikkelaars is het interessant om te weten dat met behulp van de design tool genaamd Figma in combinatie met de Token Studio plugin er een naadloze samenwerking ontstaat tussen het ontwerpen in Figma en de daadwerkelijke styling van de geprogrammeerde schermen. Waar vroeger een stijlgids overgenomen moest worden door frontend developers, kan de ontwerper nu zelf styling aandragen en updaten rechtstreeks vanuit Figma. Voor meer over deze 'magie' wordt verwezen naar een interessante [video presentatie over design tokens](https://youtu.be/n9m2TtD1esE?si=oVwolw51XTtgmt28) tijdens het jaarlijkse [Design Systems Week](https://nldesignsystem.nl/events/design-systems-week-2023/en/overview/) en de [tekstuele toelichting op design tokens](https://nldesignsystem.nl/meedoen/design-tokens/) op NL Design System. Tot slot is het interessant om te zien hoe verschillende gemeenten al hun eigen thema's beginnen op te bouwen en bijhouden in het [NL Design System Storybook](https://nl-design-system.github.io/themes/?path=/story/blockquote--gemeente-utrecht).
 ![NL Design Design Tokens](.media/meedoen_design-tokens_themes.png)\
 Afbeelding: Het effect op styling middels design tokens.\
-Bron: website NL Design System 
+Bron: website [NL Design System](https://nldesignsystem.nl/)
 
 ### 6.2.2. Het Estafette model
 
-De NL Design System richtlijnen, patronen en componenten (vanaf nu: 'onderdelen') ontstaan vanuit de community. Als deze onderdelen worden ontworpen en ontwikkeld, bewegen ze zich door het zogenaamde ['Estafettemodel'](https://nldesignsystem.nl/meedoen/estafettemodel). Onderdelen worden tijdens hun estafettereis door de community aangedragen, ontworpen en ontwikkeld volgens de NL Design System richtlijnen om uiteindelijk de Hall of Fame status te kunnen bereiken, wat inhoud dat een onderdeel voldoet aan de Definition of Done van NL Design System. \
+De NL Design System richtlijnen, patronen en componenten (vanaf nu: 'onderdelen') ontstaan vanuit de community. Als deze onderdelen worden ontworpen en ontwikkeld, bewegen ze zich door het zogenaamde ['Estafettemodel'](https://nldesignsystem.nl/meedoen/estafettemodel). Onderdelen worden tijdens hun estafettereis door de community aangedragen, ontworpen en ontwikkeld volgens de NL Design System richtlijnen om uiteindelijk de Hall of Fame status te kunnen bereiken, wat inhoudt dat een onderdeel voldoet aan de Definition of Done van NL Design System. \
 Onderdelen worden tijdens hun Estafettereis Open Source gedeeld met iedereen in de community. Op [Slack (een berichten applicatie voor communities)](https://slack.com/). Tijdens de twee wekelijkse [Design Open Hour](https://nldesignsystem.nl/meedoen/als-designer/community/) en twee wekelijke [Heartbeat sessies](https://nldesignsystem.nl/project/blijf-op-de-hoogte) wordt iedereen uitgenodigd ontwerpenvraagstukken aan te dragen, ontwerpen te presenteren en/of feedback te geven. Op deze manier leert de community van elkaar en worden de componenten steeds eenduidiger verder doorontwikkeld, wat uiteindelijk resulteert in steeds groter groeiende bibliotheek van onderdelen die door iedereen gebruikt kunnen worden en wat leidt tot een eenduidig en consistente User Experience van overheidsproducten. Een mooi voorbeeld is het [GOV.UK Design System van het Verenigd Koninkrijk](https://design-system.service.gov.uk/).
 
 ## 6.3. Globaal: Aanpak ontwikkeling generiek e-formulier
 
 ### 6.3.1. Samenwerking
 
-Voor het ontwerp en de ontwikkeling van het generieke e-formulier is er nauw samengewerkt met UX designers, accessibility experts en developers vanuit het NL Design System kernteam en UX designers uit de NL Design system community. Met name een UX Designer van gemeente Den Haag, die al veel ervaring heeft met het ontwerpen in [Figma](https://www.figma.com/design/) op basis van NL Design System en ook veel [onderzoek heeft gedaan naar gebruikersvriendelijkheid van generieke services](https://vng.nl/artikelen/ux-onderzoek-generieke-services) binnen de MijnOmgeving. Er heeft ten tijde van het ontwerp een grote ontwerpworkshop plaatsgevonden in de NL Design System community, Hierin werden onder andere collectieve besluiten genomen over ontwerppatronen, styling en tekst. Deze besluiten zijn doorgevoerd in de ontwerpen om deze mee te kunnen nemen in de usability test. Tevens is het ontwerp onder ander gedeeld tijdens de de [Heartbeat sessie van 31 oktober 2023](https://nldesignsystem.nl/events/heartbeat/#heartbeat) van NL Design System en een e-formulieren sessie van Gebruikers Centraal.
+Voor het ontwerp en de ontwikkeling van het generieke e-formulier is er nauw samengewerkt met UX-designers, accessibility experts en developers vanuit het NL Design System kernteam en UX designers uit de NL Design system community. Met name een UX-Designer van gemeente Den Haag, die al veel ervaring heeft met het ontwerpen in [Figma](https://www.figma.com/design/) op basis van NL Design System en ook veel [onderzoek heeft gedaan naar gebruikersvriendelijkheid van generieke services](https://vng.nl/artikelen/ux-onderzoek-generieke-services) binnen de MijnOmgeving. Er heeft ten tijde van het ontwerp een grote ontwerpworkshop plaatsgevonden in de NL Design System community, Hierin werden onder andere collectieve besluiten genomen over ontwerppatronen, styling en tekst. Deze besluiten zijn doorgevoerd in de ontwerpen om deze mee te kunnen nemen in de usability test. Tevens is het ontwerp onder ander gedeeld tijdens de de [Heartbeat sessie van 31 oktober 2023](https://nldesignsystem.nl/events/heartbeat/#heartbeat) van NL Design System en een e-formulieren sessie van Gebruikers Centraal.
 ![Heartbeat screenshot](.media/Heartbeart_screenshot.png)
 Afbeelding: Heartbeat sessie van NL Design System
 
@@ -399,7 +421,7 @@ B.\
 Jeroen komt op de intro-pagina van het ‘Vraag aan de gemeente’-formulier uit. Daar kan hij een aantal punten lezen. Hoelang het formulier ongeveer duurt, dat hij verplichte en optionele velden kan aantreffen, dat hij het tussentijds kan opslaan en later verder gaan en dat er een bevestiging-email gestuurd gaat worden. Tot slot kan hij lezen dat het ingevulde formulier gedownload en geprint kan worden. Jeroen klikt op 'Doorgaan'.
 
 C.\
-Vervolgens moet Jeroen een keuze maken. Wil hij inloggen of niet? Beide paden worden ondersteund in het ontwerp en in de uiteindelijke ontwikkeling. Echter, zal er het DigiD-gedeelte worden overgeslagen omdat dit buiten de scope van dit project ligt.
+Vervolgens moet Jeroen een keuze maken. Wil hij inloggen of niet? Beide paden worden ondersteund in het ontwerp en in de uiteindelijke ontwikkeling. Echter, het DigiD-gedeelte wordt overgeslagen omdat dit buiten de scope van dit project ligt.
 
 D.\
 Indien Jeroen ervoor kiest om in te loggen, zal er een zeer eenvoudig scherm verschijnen met de tekst "Doe alsof u inlogt met DigiD" om zo tijdens de usability test zeer duidelijk te maken dat er niet werkelijk wordt ingelogd met DigiD.
@@ -429,7 +451,7 @@ E stap  4/4.\
 Op dit scherm staat groot 'Uw vraag is met succes verstuurd'. In het scenario waarin Jeroen niet inlogt, wordt er op dit scherm een opsomming gegeven waarin staat dat er een bevestigingsmail naar Jeroen zijn e-mailadres gestuurd is en dat afdeling 'Vraagbaak' met de vraag aan de slag gaat. In het scenario waarin Jeroen wel gaat inloggen staat er als extra punt bij dat hij de voortgang in de MijnOmgeving kan volgen.
 
 Vervolg het scenario buiten de Gemeente Voorbeeld omgeving:\
-Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma protoype, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
+Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma prototype, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
 
 Gmail.\
 In het korte scenario, waarin Jeroen niet via DigiD inlogt opent hij Gmail en ziet daar de ontvangstbevestiging staan met een digitaal toegankelijke, met Markdown gegenereerde pdf met zijn ingevulde vraag en contactgegevens. Indien er via de ingelogde route is gegaan, dan luidt het scenario dat er binnen 48 uur een reactie is binnen gekomen via Gmail. Jeroen van Drouwen open zijn email en ziet een mailtje van gemeente Voorbeeld staan waarin aangegeven wordt dat hij via zijn MijnOmgeving de reactie van de gemeente kan inzien.
@@ -444,7 +466,7 @@ TODO
 - (vragen aan Mees/Robbert/Yolijn) | 
 - houd de NLDS site in de gaten voor code snippets |
 Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwezen naar de [pagina voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht). |
-Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). |
+Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). | https://nldesignsystem.nl/richtlijnen/formulieren/overzicht
 </mark>
 
 ### 6.3.5. Usability test
@@ -461,9 +483,9 @@ De samenstelling van de participanten was als volgt:
 
 Het onderzoek bestond uit de volgende onderdelen:
 
-- pre-interview
-- specifieke taakopdrachten en vragen gebruikmakend van de live omgeving waar de e-formulieren beschikbaar waren, Gmail en een Figma prototype voor de mijnOmgeving
-- post-interview
+- Pre-interview
+- Specifieke taakopdrachten en vragen gebruikmakend van de live omgeving waar de e-formulieren beschikbaar waren, Gmail en een Figma prototype voor de mijnOmgeving.
+- Post-interview
 
 #### 6.3.5.2. Uitkomsten
 
@@ -488,7 +510,7 @@ Bij elk scherm zijn de ontwerpadviezen aangegeven. Deze adviezen zijn voortgekom
 ![Scherm B](.media/SchermB.svg)\
 **Ontwerpadvies en suggesties voor vervolgonderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd verschillend werd ervaren. Enkele respondenten vonden 5 minuten te lang klinken. Andere verwachten dat zij hier juist langer over zouden doen. Deze indicatie van '5 minuten' bleek dus niet veel toe te voegen. Wanneer een formulier lang kan duren, ongeacht beperking of niet, zou een tijdsindicatie wellicht wel handig zijn.
 
-**Ontwerpadvies en suggesties voor vervolgonderzoek 3:** Op dit scherm wordt aan gegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waar bij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Uit nader onderzoek zou getoetst kunnen worden of misschien het niet B1 woord 'Optioneel' beter zou werken.
+**Ontwerpadvies en suggesties voor vervolgonderzoek 3:** Op dit scherm wordt aangegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waarbij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Uit nader onderzoek zou getoetst kunnen worden of misschien het niet B1 woord 'Optioneel' beter zou werken.
 <div style="page-break-after: always"></div>
 
 **Scherm C - Inloggen:** Keuzescherm om in te loggen\
@@ -498,7 +520,7 @@ Bij elk scherm zijn de ontwerpadviezen aangegeven. Deze adviezen zijn voortgekom
 
 **Scherm E Formulier stap 1 (E 1/4):** Vraag aan de gemeente invoeren\
 ![Scherm E stap 1](./.media/SchermE.svg)\
-**Ontwerpadvies en suggesties voor vervolgonderzoek 5:** Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij de scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan.
+**Ontwerpadvies en suggesties voor vervolgonderzoek 5:** Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij het scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan.
 <div style="page-break-after: always"></div>
 
 **Formulier stap 2 (E 2/4):** Contactgegevens invoeren\
@@ -596,7 +618,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Video's - VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies)
 - [Notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer)
 - [Video - Kennissessie 3: Zorgplicht](https://vng.nl/wmebv-webinars-en-kennissessies)
-- [Digitale toegankelijkheid](https://digitaaltoegankelijk.nl/over-digitale-toegankelijkheid/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5pwysW_wLxGEtgB5WBIudRJTs5oxdsWq63pcDaPVHx0wiFQwHvbKfQRoCnssQAvD_BwE)
+- [Digitale toegankelijkheid](https://digitaaltoegankelijk.nl/)
 - [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Tekst op B1 niveau](https://ishetb1.nl/)
 - [Testen op kleurcontrast](https://www.toptal.com/designers/colorfilter)
@@ -611,8 +633,6 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Responsive versus Adaptive ontwerp.](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
 - [Artikel over Help en Documentation.](https://www.nngroup.com/articles/help-and-documentation/)
 - [Al met vijf participanten veel usability inzicht](https://www.nngroup.com/articles/how-many-test-users/)
-- [Usability testing door Stichting Accessibility](https://www.accessibility.nl/)
-- [Usability testing door Valsplat](https://valsplat.nl/)
 - [Toolkit Meten en Verbeteren van webformulieren.](https://vng.nl/kennisbank-dienstverlening-gemeenten/toolkit-meten-en-verbeteren-van-webformulieren)
 - [The A11Y project - over toegankelijke formulieren](https://www.a11yproject.com/posts/how-to-write-accessible-forms/)
 - [World Wide Web Consortium (W3C) over WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
