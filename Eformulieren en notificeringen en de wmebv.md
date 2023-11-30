@@ -412,29 +412,29 @@ Om de use case van dit generieke formulier te ondersteunen en te kunnen testen i
 
 Om te komen tot een prototype schermflow, is een user journey uitgewerkt en uitgebreid besproken in de NL Design System community. De bijbehorende Figma schermen van deze user journey worden in de volgende paragraaf getoond en zijn eveneens beschikbaar in de [VNG Wmebv Figma omgeving](https://www.figma.com/proto/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?page-id=1783%3A7195&type=design&node-id=1783-13018&viewport=2044%2C220%2C0.06&t=ZgGyDyuCmc73YbAh-1&scaling=min-zoom&starting-point-node-id=1783%3A13018&mode=design).
 
-![Scenario schematisch weergegeven](.media/ScenarioSchematisch.svg)\
+![Scenario schematisch weergegeven. Het is een flow diagram met eenvoudig getekende schermen A tot en met E en daarna Gmail schermen en een MijnOmgeving schermpje. Bij de E schermen staat E kort en E lang, dit duidt op de route die de persona af kan leggen in het scenario. De lange of de korte route, waarbij het verschil zit in het wel of niet inloggen met DigiD.](.media/ScenarioSchematisch.svg)\
 Afbeelding: Schematische weergave van de user journey.
 
-A.\
+A. De contact-pagina.\
 Jeroen van Drouwen heeft een 8 weken geleden een Bijstandsuitkering aangevraagd en nog geen reactie gehad van de Gemeente. Jeroen vindt dit niet leuk en denkt dat de gemeente inmiddels al te laat is met reageren en besluit een vraag aan de gemeente hierover te willen stellen. Jeroen komt via de Homepage van Gemeente Voorbeeld op de Contactpagina uit. Hier kan hij kiezen wat hij wil doen. Jeroen besluit een Vraag te willen stellen en start het Contactformulier.
 
-B.\
+B Het intro-scherm van het contact-formulier.\
 Jeroen komt op de intro-pagina van het ‘Vraag aan de gemeente’-formulier uit. Daar kan hij een aantal punten lezen. Hoelang het formulier ongeveer duurt, dat hij verplichte en optionele velden kan aantreffen, dat hij het tussentijds kan opslaan en later verder gaan en dat er een bevestiging-email gestuurd gaat worden. Tot slot kan hij lezen dat het ingevulde formulier gedownload en geprint kan worden. Jeroen klikt op 'Doorgaan'.
 
-C.\
+C. De pagina met de keuze om in te loggen met Digid ja of nee?\
 Vervolgens moet Jeroen een keuze maken. Wil hij inloggen of niet? Beide paden worden ondersteund in het ontwerp en in de uiteindelijke ontwikkeling. Echter, het DigiD-gedeelte wordt overgeslagen omdat dit buiten de scope van dit project ligt.
 
-D.\
+D. De Digid inlog pagina.\
 Indien Jeroen ervoor kiest om in te loggen, zal er een zeer eenvoudig scherm verschijnen met de tekst "Doe alsof u inlogt met DigiD" om zo tijdens de usability test zeer duidelijk te maken dat er niet werkelijk wordt ingelogd met DigiD.
 
-E stap 1/4.\
+E. Formulier stap 1/4: Uw vraag.\
 Nadat Jeroen al dan niet is ingelogd komt hij op de eerste pagina van het generieke e-formulier.\
 Jeroen typt:\
 _Beste meneer of mevrouw, Ik heb meer dan 8 weken geleden een aanvraag voor bijstandsuitkering gedaan maar ik heb nog steeds niets gehoord. Volgens mij had u allang op mijn aanvraag moeten beslissen.\
 Met vriendelijke groet, Jeroen van Drouwen_\
 Jeroen voegt geen bestand toe klikt op ‘Volgende stap’.
 
-E stap 2/4.\
+E Formulier stap 2/4: Uw gegevens.\
 Als Jeroen niet is ingelogd via DigiD, zijn de gegevens van Jeroen niet vooringevuld. Als Jeroen wel is ingelogd via DigiD, zijn zijn gegevens wel vooringevuld en hoeft hij deze enkel te controleren. Hij heeft in dat geval geen optie om zijn gegevens te kunnen wijzigen behalve voor zijn telefoonnummer en e-mailadres. Jeroen vult zijn gegevens in, indien mogelijk met behulp van de autocomplete functie van de computer.\
 _Jeroen van Drouwen\
 Laan der voorbeelden 99\
@@ -445,26 +445,26 @@ Jeroen klikt op 'Volgende stap'.
 
 Note: Tijdens de usability test vragen we de mensen hun eigen autocomplete te gebruiken en leggen we uit dat we in dit scenario doen alsof Jeroen zijn gegevens dan worden ingevuld. Ook benadrukken we dat hun gegevens niet worden opgeslagen.
 
-E stap 3/4.\
+E Formulier stap 3/4: Controleer uw gegevens.\
 In deze stap van het formulier staan alle door Jeroen ingevoerde gegevens en hij kan deze controleren en indien gewenst aanpassen. Vervolgens klikt Jeroen op 'Versturen'.
 
-E stap  4/4.\
+E Formulier stap  4/4: De succesvol verstuurd pagina.\
 Op dit scherm staat groot 'Uw vraag is met succes verstuurd'. In het scenario waarin Jeroen niet inlogt, wordt er op dit scherm een opsomming gegeven waarin staat dat er een bevestigingsmail naar Jeroen zijn e-mailadres gestuurd is en dat afdeling 'Vraagbaak' met de vraag aan de slag gaat. In het scenario waarin Jeroen wel gaat inloggen staat er als extra punt bij dat hij de voortgang in de MijnOmgeving kan volgen.
 
 Vervolg het scenario buiten de Gemeente Voorbeeld omgeving:\
 Deze laatste taken zijn tijdens de usability test met behulp van Gmail en Figma uitgevoerd. In het kader van de tijd was het niet mogelijk een MijnOmgeving in code klaar te zetten, daarom is er gebruik gemaakt van een Figma prototype, die niet met een screen reader of anderszins op accessibility getest kan worden. Tijdens de usability tests zijn deze schermen voorgelegd en toegelicht door de onderzoeker om op die manier nog waardevolle feedback te kunnen ontvangen.
 
-Gmail.\
+Gmail inbox pagina.\
 In het korte scenario, waarin Jeroen niet via DigiD inlogt opent hij Gmail en ziet daar de ontvangstbevestiging staan met een digitaal toegankelijke, met Markdown gegenereerde pdf met zijn ingevulde vraag en contactgegevens. Indien er via de ingelogde route is gegaan, dan luidt het scenario dat er binnen 48 uur een reactie is binnen gekomen via Gmail. Jeroen van Drouwen open zijn email en ziet een mailtje van gemeente Voorbeeld staan waarin aangegeven wordt dat hij via zijn MijnOmgeving de reactie van de gemeente kan inzien.
 
-MijnOmgeving.\
+MijnOmgeving pagina.\
 In de MijnOmgeving beland Jeroen op het overzicht-scherm kan hij kan via 'Mijn zaken', de reactie van de gemeente op zijn vraag vinden.
 
 ### 6.3.4. Development
 
 <mark>
 TODO
-- (vragen aan Mees/Robbert/Yolijn) | 
+- (vragen aan Mees/Robbert/Yolijn) |
 - houd de NLDS site in de gaten voor code snippets |
 Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwezen naar de [pagina voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht). |
 Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). | https://nldesignsystem.nl/richtlijnen/formulieren/overzicht
@@ -490,7 +490,11 @@ Het onderzoek bestond uit de volgende onderdelen:
 
 #### 6.3.5.2. Uitkomsten
 
-Het is noemenswaardig dat alle participanten beide scenario's van begin tot het einde hebben kunnen doorlopen, waarbij het formulier-gedeelte voldoende gebruikersvriendelijk en toegankelijk bleek. Uiteraard is er ruimte voor verbetering, hieraan zal in de volgende paragraaf aandacht besteed worden. Per scherm zullen de belangrijkste bevindingen, adviezen en suggesties voor vervolgonderzoek genoemd worden.
+Het is noemenswaardig dat alle participanten aangaven bij voorkeur te willen bellen. Er was behoefte aan persoonlijk contact. Wat ook belangrijk is om te noemen dat de participanten beide scenario's van begin tot het einde hebben kunnen doorlopen, waarbij het formulier-gedeelte voldoende gebruikersvriendelijk en toegankelijk bleek. De instructies zijn duidelijk en het formulier was overzichtelijk. Er was positieve feedback op kleur en lay-out, waarbij niemand moeite had met de witruimtes op het scherm.
+De schermlezer navigeerde goed door het formulier en de knoppen en navigatie werkten naar behoren.
+Er is een algehele behoefte aan eenvoud en duidelijkheid.
+
+Uiteraard is er ruimte voor verbetering, hieraan zal in de volgende paragraaf aandacht besteed worden. Per scherm zullen de belangrijkste bevindingen, adviezen en suggesties voor vervolgonderzoek genoemd worden.
 
 Tot slot zal het onderzoeksrapport van Stichting Accessibility beschikbaar gesteld worden op de website van [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/)
 
@@ -503,84 +507,94 @@ Bij elk scherm zijn de ontwerpadviezen aangegeven. Deze adviezen zijn voortgekom
 <div style="page-break-after: always"></div>
 
 **Scherm A - Contact:** Een scherm met verschillende opties om contact te leggen met de gemeente.\
-![Scherm A](.media/SchermA.svg)\
+![Scherm A Contact met de gemeente Pagina](.media/SchermA.svg)\
 **Ontwerpadvies 1:** Dit scherm is onderverdeeld in een aantal verschillende onderwerpen: 'Vraag', 'Klacht', 'Melding openbare ruimte en overlast' en een 'Idee of voorstel'. Door te proberen de vraag in een vroeg stadium van de berichtenstroom te categoriseren als formeel of niet-formeel bericht, kunnen deze processen in een vroeg stadium herkend en behandeld worden met in acht name van de Wmebv. Er zijn overigens gemeenten die adviseren het onderscheid niet maken en alles behandelen als formeel bericht om zo ten alle tijden te voldoen aan de Wmebv. Gemeente Barneveld licht dit bijvoorbeeld toe in de [Kennissessie Juridische Aspecten van 9 oktober 2023](https://vng.nl/wmebv-webinars-en-kennissessies).
 <div style="page-break-after: always"></div>
 
 **Scherm B - Uitleg over het formulier:** Een scherm met uitleg over wat de gebruiker te wachten staat, tijdens het invullen van het 'Vraag aan de gemeente' e-formulier.\
-![Scherm B](.media/SchermB.svg)\
+![Scherm B Formulier intro-pagina](.media/SchermB.svg)\
 **Ontwerpadvies en suggesties voor vervolgonderzoek 2:** Op dit scherm worden een aantal punten over wat de gebruiker kan verwachten toegelicht. In dit ontwerp staat dat het 'ongeveer 5 minuten zal duren' echter bleek uit het usability onderzoek dat deze hoeveelheid tijd verschillend werd ervaren. Enkele respondenten vonden 5 minuten te lang klinken. Andere verwachten dat zij hier juist langer over zouden doen. Deze indicatie van '5 minuten' bleek dus niet veel toe te voegen. Wanneer een formulier lang kan duren, ongeacht beperking of niet, zou een tijdsindicatie wellicht wel handig zijn.
 
 **Ontwerpadvies en suggesties voor vervolgonderzoek 3:** Op dit scherm wordt aangegeven 'Vul alle velden in. Als een veld niet verplicht is, staat dit erbij.'. In dit ontwerp is gekozen voor de benadering van het GOV.UK Design System, waarbij [optionele velden gemarkeerd worden](https://design-system.service.gov.uk/patterns/question-pages/) hanteert waarbij gesteld wordt dat verplichte velden niet met een \* gemarkeerd moeten worden maar juist optionele velden gemarkeerd worden met 'Optional' wat wij in B1 vertaald hebben naar 'Niet verplicht'. Echter bleek uit de usability studie dat mensen dit niet duidelijk vonden en dat de  'Niet verplicht'gemarkeerde velden sneller overgeslagen werden, terwijl ze wel degelijk van belang kunnen zijn. Denk bijvoorbeeld aan een huistoevoeging. Uit nader onderzoek zou getoetst kunnen worden of misschien het niet B1 woord 'Optioneel' beter zou werken.
 <div style="page-break-after: always"></div>
 
 **Scherm C - Inloggen:** Keuzescherm om in te loggen\
-![Scherm C](.media/SchermC.svg)\
+![Scherm C: Inloggen met Digid ja of nee pagina](.media/SchermC.svg)\
 **Ontwerpadvies en suggesties voor vervolgonderzoek 4** Uit het usability onderzoek bleek dat sommige mensen het formulier hadden verwacht in plaats van een scherm met de mogelijkheid om in te loggen. Uit nader onderzoek moet blijken of dit inlogscherm op een andere plek in de user journey moet zitten of misschien op een andere visuele manier gepresenteerd moet worden. In dit ontwerp was gekozen voor radio buttons met ja en nee, maar misschien zijn mensen meer gebaat bij een andere weergave waarbij de voordelen van inloggen nog duidelijker benoemd staan. De voordelen staan in dit ontwerp maar merendeel van de participanten las de tekst niet omdat ze veel bezig waren met een keuze te maken om wel of niet in te loggen met 'het moeilijke 'of het 'enge' DigiD.
 <div style="page-break-after: always"></div>
 
 **Scherm E Formulier stap 1 (E 1/4):** Vraag aan de gemeente invoeren\
-![Scherm E stap 1](./.media/SchermE.svg)\
+![Scherm E: formulier stap 1: Uw vraag](./.media/SchermE.svg)\
 **Ontwerpadvies en suggesties voor vervolgonderzoek 5:** Uit het usability onderzoek kwam naar voren dat mensen veel hun mobiele apparaten gebruiken waarbij zij baat hebben van de suggestiewoorden die bij een mobieltoetsenbord getoond worden. Dit maakt het, vooral voor de laaggeletterde doelgroep, makkelijker om hun vraag goed te kunnen invoeren. Uit nader onderzoek moet blijken of er een invulhulp bedacht en aangeboden kan worden. Een vertaaloptie zou ook een meerwaarde kunnen bieden voor mensen die de Nederlandse taal niet voldoende beheersen.  Een ander idee zou kunnen zijn om mensen bij het scherm B te informeren dat zij dit formulier ook op een mobiel apparaat kunnen invullen en wat de voordelen daarvan zijn. Een nadeel daarvan zou zijn, dat zij niet bij documenten kunnen doe wellicht op hun computer staan.
 <div style="page-break-after: always"></div>
 
 **Formulier stap 2 (E 2/4):** Contactgegevens invoeren\
-![Scherm E stap 2](.media/SchermE2.svg)\
-<mark>**Ontwerpadvies 6:** ...</mark>
+![Scherm E: formulier stap 2: Uw gegevens](.media/SchermE2.svg)\
+**Ontwerpadvies en suggesties voor vervolgonderzoek 6:** Indien er is gekozen om in te loggen, dan worden de vooringevulde gegevens die theoretisch vanuit DigiD worden opgehaald en getoond. Dit wordt door de participanten op prijs gesteld. Echter zou in een vervolgonderzoek gekeken kunnen worden wat de gevolgen indien de gegevens niet kloppen. Zou de gebruiker zijn gegevens moeten kunnen aanpassen en wat zijn de gevolgen?\
+Indien er niet is ingelogd, vult de gebruiker alle gegevens handmatig in. De velden in het formulier zijn zo gemaakt dat de autocomplete gebruikt kan worden om het invullen eenvoudiger te maken. Uit het usability onderzoek kwam naar voren dat de autocomplete op de juiste manier werkte.
 <div style="page-break-after: always"></div>
 
 **Formulier stap 3 (E 3/4):** Controleer gegevens en verzend\
-![Scherm E stap 3](.media/SchermE3.svg)\
-<mark>**Ontwerpadvies 7:** ...</mark>
+![Scherm E: formulier stap 3: Controleer uw gegevens](.media/SchermE3.svg)\
+**Ontwerpadvies en suggesties voor vervolgonderzoek 7:** Uit het usability onderzoek kwam naar voren dat de manier om gegevens aan te passen goed gevonden en gebruikt werd. Echter, de navigatie in dit formulier is dusdanig dat de vervolgstappen doorlopen moeten worden om weer bij "Controleer uw gegevens" uit te komen. Dit leverde in sommige gevallen wat verwarring op. "huh? Waarom moet ik nu ineens weer mijn gegevens invullen? (Gegevens staan vooringevuld.) Dit had ik al gedaan...". Een enkele stap van controle-scherm naar aanpassing en terug naar controle-scherm lijkt beter te zijn. Nader onderzoek zal dit echter moeten uitwijzen\
+Een ander belangrijk punt om aan te stippen is dat sommige participanten op dit scherm de verwachting hadden dat hun vraag en gegevens inmiddels al waren verstuurd. Echter moet nog op 'Versturen' worden geklikt. Sommige participanten stopte om deze reden het formulier.
 <div style="page-break-after: always"></div>
 
 **Formulier stap 4 (E 3/4):** Uw vraag is met succes verstuurd\
-![Scherm E stap 4](.media/SchermE4.svg)\
-<mark>**Ontwerpadvies 8:** ...</mark>
+![Scherm E: formulier stap 4: Succesvol verstuurd pagina](.media/SchermE4.svg)\
+**Ontwerpadvies 8:** Uit het onderzoek blijkt dat dit scherm duidelijk was voor de participanten. Alle participanten viel het tekstblok 'Wat gaat er nu gebeuren' op en begrepen de vervolgstappen.
 <div style="page-break-after: always"></div>
 
-Figma schermen van de Gmail omgeving voor scenario E_kort:
+Hieronder wordt eerst gekeken naar de Figma schermen van de Gmail omgeving voor het korte scenario (E_kort in de schematische weergave.):
 
 **Gmail inbox (niet ingelogd scenario):** Ontvangstbevestiging in de Inbox\
-![Gmail inbox](.media/E-mails_sc_kort.svg)\
-<mark>**Ontwerpadvies 9:** ...</mark>
+![Gmail inbox pagina](.media/E-mails_sc_kort.svg)\
+**Ontwerpadvies 9:** Uit het onderzoek bleek dat het onderwerp van de email duidelijk was. Verder geen opvallende bevindingen omdat dit buiten de scope van het onderzoek lag.
 <div style="page-break-after: always"></div>
 
 **Gmail berichtdetail (niet ingelogd scenario):** Ontvangstbevestiging inhoud emailtje\
-![Gmail ontvangst email](.media/E-mail%20reactie_sc_kort.svg)\
-<mark>**Ontwerpadvies 10:** ...</mark>
+![Gmail ontvangst email details](.media/E-mail%20reactie_sc_kort.svg)\
+**Ontwerpadvies 10:** Uit het onderzoek bleek dat de onderverdeling in kopjes duidelijk was. Echter, in het korte scenario, waar een pdf als bijlage bijgevoegd was, leidde het tekstblok over waarom er geen linkjes in de email stonden tot verwarring. Ook verwachtte merendeel van de participanten het antwoord van de gemeente, en niet een ontvangstbevestiging. "Leuk, maar ik wil gewoon antwoord...".
 <div style="page-break-after: always"></div>
 
 **Gmail PDF (niet ingelogd scenario):** Pdf met ingevulde gegevens\
 ![Gmail bijlage pdf](.media/PDFje_uit_de_mail.png)\
-<mark>**Ontwerpadvies 11:** ...</mark>
+**Ontwerpadvies 11:** Uit het onderzoek bleek dat de inhoud van de pdf goed leesbaar was met de schermlezer. Deze pdf is in Markdown gemaakt en geëxporteerd naar pdf. Ook hier verwachtte de participanten een antwoord van de gemeente en niet een kopie van de ingevoerde gegevens.
 <div style="page-break-after: always"></div>
 
-Figma schermen met een nagebooste Gmail omgeving voor scenario E_lang:
+Figma schermen met een nagebootste Gmail omgeving voor scenario E_lang:
 
-**Gmail inbox (wel ingelogd scenario)** Ontvangstbevestiging in de inbox\
-![Gmail ontvangst email](.media/E-mails_sc_lang.svg)\
-<mark>**Ontwerpadvies 12:** ...</mark>
+**Gmail inbox (wel ingelogd scenario):** Emailtje met "Reactie op uw vraag van de gemeente"\
+![Gmail inbox](.media/E-mails_sc_lang.svg)\
+**Ontwerpadvies 12:** Het onderwerp van de email is duidelijk.
 <div style="page-break-after: always"></div>
 
-**Gmail berichtdetail (wel ingelogd scenario)** Een email met een een notificatie dat er een reactie van de gemeente in de MijnOmgeving staat.\
-![Gmail ontvangst email](.media/E-mail%20reactie_sc_lang.svg)\
-<mark>**Ontwerpadvies 13:** ...</mark>
+**Gmail berichtdetail (wel ingelogd scenario):** Een email met een een notificatie dat er een reactie van de gemeente in de MijnOmgeving staat.\
+![Gmail ontvangst email details](.media/E-mail%20reactie_sc_lang.svg)\
+**Ontwerpadvies 13:** Uit het onderzoek bleek dat mensen het antwoord van de gemeente in de email verwachten. In dit scenario moeten ze echter inloggen in de MijnOmgeving.
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving overzichtscherm** MijnOmgeving Overzicht-scherm waar een zaak klaarstaat.\
-![Gmail bijlage pdf](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)\
-<mark>**Ontwerpadvies 14:** ...</mark>
+**MijnOmgeving overzichtsscherm:** MijnOmgeving Overzicht-scherm waar een zaak klaarstaat.\
+![MijnOmgeving Overzicht pagina](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)\
+**Ontwerpadvies 14:** Merendeel van de participanten gaf aan een indicatie in het linker menu te verwachten, wat aangeeft waar ze de reactie kunnen vinden.
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving Mijn zaken** Overzicht van alle zaken, in dit geval maar een.\
-![Gmail inbox](.media/LV_mijn-omgeving-dashboard_sc_lang-1.svg)\
-<mark>**Ontwerpadvies 15:** ...</mark>
+**MijnOmgeving Mijn zaken:** Overzicht van alle zaken, in dit geval maar een.\
+![MijnOmgeving alle zaken](.media/LV_mijn-omgeving-dashboard_sc_lang-1.svg)\
+**Ontwerpadvies 15:** In het geval van dit onderzoek is er maar een zaak beschikbaar. Om grondiger onderzoek te doen naar de MijnOmgeving zal een meer gedetailleerd scenario uitgewerkt moeten worden. In dit onderzoek kwam naar voren dat alle participanten de reactie van de gemeente wisten te vinden.
 <div style="page-break-after: always"></div>
 
-**MijnOmgeving zaakdetail** Scherm waarin de reactie van de gemeente te lezen is.\
-![Gmail bijlage pdf](.media/LV_mijn-omgeving-berichten_sc_lang.svg)\
-<mark>**Ontwerpadvies 16:** ...</mark>
+**MijnOmgeving zaakdetail:** Scherm waarin de reactie van de gemeente te lezen is.\
+![MijnOmgeving zaakdetails](.media/LV_mijn-omgeving-berichten_sc_lang.svg)\
+**Ontwerpadvies 16:** Uit dit onderzoek bleek dat de volgorde van het zaakdetailscherm verwarrend werkte. Zo staan de statussen van oud naar nieuw gesorteerd en de reacties (onderaan de pagina) van nieuw naar oud. Binnen een van de reacties staat de vraag van Jeroen van Drouwen bovenaan (oud) en de reactie van de gemeente eronder (nieuw). Ook scrolden sommige participanten niet ver genoeg naar beneden om de reactie uiteindelijk snel te kunnen vinden. Het merendeel van de participanten gaf aan dat ze niet veel geven om de Statussen maar juist om de reactie. Uit nader onderzoek moet blijken of een andere indeling minder verwarrend werkt.
+
+**Overige bevindingen**\
+
+- Het wisselen tussen platforms (formulier/website gemeente voorbeeld, e-mail, MijnOmgeving) kan verwarrend zijn.
+- Men verwacht te kunnen reageren in de MijnOmgeving.
+- Het statusoverzicht in de MijnOmgeving is verwarrend.
+- Waardering voor een overzichtelijke structuur en duidelijk aangegeven invoervelden.
+- Positieve reacties op autocomplete benadrukken het belang van tijdbesparende functies.
 
 Bekijk de [uitgewerkte ontwerpen in detail in Figma.](https://www.figma.com/proto/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?page-id=1783%3A7195&type=design&node-id=1783-13018&viewport=2044%2C220%2C0.06&t=ZgGyDyuCmc73YbAh-1&scaling=min-zoom&starting-point-node-id=1783%3A13018&mode=design) en bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv)
 
