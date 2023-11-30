@@ -465,7 +465,7 @@ In de MijnOmgeving beland Jeroen op het overzicht-scherm kan hij kan via 'Mijn z
 
 Voor het invullen van formulieren is het belangrijk dat iedereen dit kan doen. Ook mensen die blind zijn of geen muis kunnen gebruiken. Goede HTML en feedback is daarom essentieel. Daarom schrijft het NL Design system [richtlijnen voor het goed programmeren van formulieren](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht).
 
-De code waarmee de voor deze opdracht ontwikkelde generieke formulieren getest is, is beschikbaar op [de Github voor gemeentevoorbeeld](https://github.com/frameless/gemeentevoorbeeld.nl) en de live omgeving is beschikbaar op [de website van gemeentevoorbeeld.nl](https://www.gemeentevoorbeeld.nl/wmebv)
+De code waarmee de voor deze opdracht ontwikkelde generieke formulieren getest is, is beschikbaar op [de Github voor gemeente Voorbeeld](https://github.com/frameless/gemeentevoorbeeld.nl) en de live omgeving is beschikbaar op [de website van gemeentevoorbeeld.nl](https://www.gemeentevoorbeeld.nl/wmebv)
 
 Bekijk ook de pagina ['Meedoen met NL Design System als developer'](https://nldesignsystem.nl/meedoen/als-developer/overzicht) voor meer informatie.
 
@@ -666,7 +666,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [VNG Wmebv Figma omgeving](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)
 - [Voor designers met NL Design System](https://nldesignsystem.nl/meedoen/als-designer/overzicht)
 - [Richtlijnen voor het goed programmeren van formulieren](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht)
-- [De Github voor gemeentevoorbeeld](https://github.com/frameless/gemeentevoorbeeld.nl)
+- [De Github voor gemeente Voorbeeld](https://github.com/frameless/gemeentevoorbeeld.nl)
 - [Voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht)
 - [Omnichannel aanpak](https://vng.nl/omnichannel)
 - [Video - Kennissessie 2: Omnichannel](https://vng.nl/wmebv-webinars-en-kennissessies)
