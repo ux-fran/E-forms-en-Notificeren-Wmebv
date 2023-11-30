@@ -675,7 +675,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/)
 - [Uitgewerkte ontwerpen van het generieke formulier in Figma.](https://www.figma.com/proto/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?page-id=1783%3A7195&type=design&node-id=1783-13018&viewport=2044%2C220%2C0.06&t=ZgGyDyuCmc73YbAh-1&scaling=min-zoom&starting-point-node-id=1783%3A13018&mode=design)
 - [Live demo van het geprogrammeerde generieke formulier](https://www.gemeentevoorbeeld.nl/wmebv)
-- [Over duidelijke communicatie](https://vng.nl/projecten/duidelijke-overheidscommunicatie)
+- [Over duidelijke overheidscommunicatie](https://vng.nl/projecten/duidelijke-overheidscommunicatie)
 - [Stappenplan wet Wmebv](https://vng.nl/artikelen/stappenplan-wet-mebv)
 
 ## 7.3. Overige interessante links
