@@ -47,7 +47,7 @@ Vereniging van Nederlandse Gemeenten
 - [7. Bronnen en overige informatie](#7-bronnen-en-overige-informatie)
   - [7.1. Stappenplan implementatie Wmebv](#71-stappenplan-implementatie-wmebv)
   - [7.2. Bronnen](#72-bronnen)
-  - [7.3. Interessante links](#73-interessante-links)
+  - [7.3. Overige interessante links](#73-overige-interessante-links)
   
 <div style="page-break-after: always"></div>
 
@@ -55,11 +55,11 @@ Vereniging van Nederlandse Gemeenten
 
 ## 3.1. Totstandkoming
 
-Dit document is tot stand gekomen in opdracht van de Vereniging van Nederlandse Gemeenten Realisatie (VNGR) in samenwerking met NL Design System. Voor dit document zijn verschillende bronnen gebruikt. Naast desk-research is er een generiek e-formulier op basis van het NL Design System ontworpen en ontwikkeld. Het generieke e-formulier en de bijbehorende scenario's zijn ontwikkeld om inzage te geven in hoe enerzijds omgegaan zou kunnen worden met producten die nog niet beschikken over een e-formulier en anderzijds om te laten zien hoe met het gebruik van NL Design System binnen een relatief korte tijd gekomen kan worden tot een gebruikersvriendelijk en toegankelijk e-formulier. Het e-formulier en de bijbehorende vervolgschermen, en daarmee dus het scenario, zijn voorgelegd aan experts binnen de VNG, de NL Design System Community en tevens getoetst op gebruikersvriendelijkheid en digitale toegankelijkheid door Stichting Accessibility.
+Dit document is tot stand gekomen in opdracht van de Vereniging van Nederlandse Gemeenten Realisatie (VNGR) in samenwerking met NL Design System. Voor dit document zijn verschillende bronnen gebruikt. Naast desk-research is er een generiek e-formulier op basis van het NL Design System ontworpen en ontwikkeld. Het generieke e-formulier en de bijbehorende scenario's zijn ontwikkeld om inzage te geven in hoe enerzijds omgegaan zou kunnen worden met producten die nog niet beschikken over een e-formulier en anderzijds om te laten zien hoe met het gebruik van NL Design System binnen een relatief korte tijd gekomen kan worden tot een gebruikersvriendelijk en toegankelijk e-formulier. Het e-formulier en de bijbehorende vervolgschermen, en daarmee dus het scenario, zijn voorgelegd aan experts binnen de VNG, de werkgroepen van Wmebv en leveranciers, alsmede de Community Online Formulieren van Gebruikers Centraal en de NL Design System Community. Tevens zijn de formulieren en de flow getoetst op gebruikersvriendelijkheid en digitale toegankelijkheid door Stichting Accessibility.
 
 ## 3.2. Doel
 
-Het doel van dit document is om inzichten te delen betreft het ontwerpen en ontwikkelen van een generiek e-formulier op basis van NL Design System zodat deze voldoet aan de wet modernisering bestuurlijk verkeer (Wmebv). Tevens wordt gekeken naar wat de Wmebv betekent voor notificaties. De volgende onderwerpen worden behandeld:
+Het doel van dit document is om inzichten te delen betreft het ontwerpen en ontwikkelen van een generiek e-formulier op basis van NL Design System zodat deze voldoet aan de wet modernisering bestuurlijk verkeer (Wmebv), digitale toegankelijkheid en de gebruikersvriendelijkheid. Tevens wordt gekeken naar wat de Wmebv betekent voor notificaties. De volgende onderwerpen worden behandeld:
 
 - Wmebv in het kort.
 - Ontwerpcriteria voor het maken van Wmebv proof e-formulieren en notificaties.
@@ -68,11 +68,11 @@ Het doel van dit document is om inzichten te delen betreft het ontwerpen en ontw
 
 ## 3.3. Doelgroep
 
-Dit document is bestemd voor een ieder die meer te weten wil komen over het maken van digitaal toegankelijke en gebruikersvriendelijke e-formulieren. Daarbij wordt extra aandacht besteed aan de punten die gelden om de e-formulieren Wmebv-proof te maken.
+Dit document is bestemd voor gemeenten en leveranciers die e-formulieren ontwikkelen. Enerzijds belicht dit document handelingsperspectieven voor het inpassen van de Wmebv vereisten en anderzijds voor het maken van digitaal toegankelijke en gebruikersvriendelijke e-formulieren en notificaties.
 
 ## 3.4. Samenwerkingspartners
 
-Dit document en de bijbehorende schermvoorbeelden zijn een samenwerking van VNGR met het NL Design System kernteam, (UX) designers uit de NL Design System Community en met name de UX-designer van Gemeente Den Haag, waar al veel onderzoek gedaan is naar de gebruikersvriendelijkheid van notificaties.
+Dit document en de bijbehorende schermvoorbeelden zijn een samenwerking van VNGR met het NL Design System kernteam, (UX) designers uit de NL Design System Community en met name de UX-designer van Gemeente Den Haag, waar al veel onderzoek gedaan is naar de gebruikersvriendelijkheid van notificaties. Tevens is het werk voorgelegd aan experts binnen de VNG, de werkgroepen van Wmebv en leveranciers, alsmede de Community Online Formulieren van Gebruikers Centraal. In een vervolgstap wordt graag samengewerkt met een nog bredere groep gemeenten en leveranciers om een nog groter draagvlak te creëren voor het inzetten van generieke componenten en interactiepatronen van NL Design System.
 <div style="page-break-after: always"></div>
 
 # 4. Wet Modernisering Elektronisch Bestuurlijk Verkeer
@@ -102,7 +102,8 @@ Voordat er iets dieper ingegaan wordt op de Wmebv, is het belangrijk om aan te g
 
 Niet-officieel bestuurlijke berichten zijn alle andere berichten zoals informele contacten.
 
-Het exacte bereik en de aard van formele berichten kunnen sterk variëren, dus is het belangrijk om de specifieke wetgeving en bestuurlijke structuren in overweging te nemen om een vollediger beeld te krijgen van welke producten onder deze term vallen. Voor dit document is het echter van belang het verschil tussen niet formele berichten en formele berichten aan te duiden, om zo duidelijk te maken dat de Wmebv niet voor alle processen/producten geldt maar enkel voor de formele berichten. Voor meer verdieping in de juridische aspecten wordt verwezen naar de video-opname van [Kennissessie 1:  Juridisch Aspecten](https://youtu.be/7Vujk18JA-g) van 9 oktober 2023, die te vinden is op de website: [VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies)
+Het exacte bereik en de aard van formele berichten kunnen sterk variëren, dus is het belangrijk om de specifieke wetgeving en bestuurlijke structuren in overweging te nemen om een vollediger beeld te krijgen van welke producten onder deze term vallen. Voor dit document is het echter van belang het verschil tussen niet formele berichten en formele berichten aan te duiden, om zo duidelijk te maken dat de Wmebv niet voor alle processen/producten geldt maar enkel voor de formele berichten. Voor meer verdieping in de juridische aspecten wordt verwezen naar de video-opname van [Kennissessie 1:  Juridisch Aspecten](https://youtu.be/7Vujk18JA-g) van 9 oktober 2023 en de technischere
+[kennissessie 6: Digitale interactie over onder andere Generieke services](https://www.youtube.com/watch?v=m2x146aH9YM) van 7 november 2023 die beiden te vinden zijn op de website: [VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies).
 
 ## 4.3. Wmebv schematisch weergegeven
 
@@ -287,7 +288,7 @@ Controleer of er voldoende [beveiligingsmaatregelen](https://www.cip-overheid.nl
 
 ## 5.5. Aanpasbaarheid en Responsiviteit
 
-Zorg ervoor dat formulieren en notificaties goed werken op verschillende apparaten en schermformaten. Zorg ervoor dat de formulieren ook goed werken op mobiele apparaten zoals telefoons en tablets. Houd hierbij extra rekening met het aanbieden van het [juiste mobiele toetsenbord](https://www.mobilespoon.net/2018/12/10-usability-rules-keyboard-mobile-app.html) per type invoerveld. Qwerty bij tekstvelden, nummerriek bij nummervelden etc. Uit het recent uitgevoerde usability onderzoek, dat verderop in dit document wordt toegelicht, kwam naar voren dat het merendeel van de participanten gebruikmaken van hun mobiele telefoon of tablet om dergelijke formulieren in te vullen. Daarbij zijn ze vaak geholpen met de woordsuggesties die het mobiele apparaat toont, om zo sneller een tekst te kunnen produceren.\
+Zorg ervoor dat formulieren en notificaties goed werken op verschillende apparaten en schermformaten. Zorg ervoor dat de formulieren ook goed werken op mobiele apparaten zoals telefoons en tablets. Houd hierbij extra rekening met het aanbieden van het [juiste mobiele toetsenbord](https://www.mobilespoon.net/2018/12/10-usability-rules-keyboard-mobile-app.html) per type invoerveld. De standaard toetsenbord indeling (meestal de Qwerty-indeling) bij tekstvelden, nummerriek bij nummervelden etc. Uit het recent uitgevoerde usability onderzoek, dat verderop in dit document wordt toegelicht, kwam naar voren dat het merendeel van de participanten gebruikmaken van hun mobiele telefoon of tablet om dergelijke formulieren in te vullen. Daarbij zijn ze vaak geholpen met de woordsuggesties die het mobiele apparaat toont, om zo sneller een tekst te kunnen produceren.\
 ![Mobiel toetsenbord](.media/Mobile_toetsenbord2.jpg)\
 Afbeelding: Mobiel toetsenbord met woordvoorspelling mogelijkheid.
 
@@ -462,13 +463,11 @@ In de MijnOmgeving beland Jeroen op het overzicht-scherm kan hij kan via 'Mijn z
 
 ### 6.3.4. Development
 
-<mark>
-TODO
-- (vragen aan Mees/Robbert/Yolijn) |
-- houd de NLDS site in de gaten voor code snippets |
-Voor meer informatie over hoe dit in zijn werk gaat voor developers wordt verwezen naar de [pagina voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht). |
-Bekijk de [live demo van de geprogrammeerde schermen](https://www.gemeentevoorbeeld.nl/wmebv). | https://nldesignsystem.nl/richtlijnen/formulieren/overzicht
-</mark>
+Voor het invullen van formulieren is het belangrijk dat iedereen dit kan doen. Ook mensen die blind zijn of geen muis kunnen gebruiken. Goede HTML en feedback is daarom essentieel. Daarom schrijft het NL Design system [richtlijnen voor het goed programmeren van formulieren](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht).
+
+De code waarmee de voor deze opdracht ontwikkelde generieke formulieren getest is, is beschikbaar op [de Github voor gemeentevoorbeeld](https://github.com/frameless/gemeentevoorbeeld.nl) en de live omgeving is beschikbaar op [de website van gemeentevoorbeeld.nl](https://www.gemeentevoorbeeld.nl/wmebv)
+
+Bekijk ook de pagina ['Meedoen met NL Design System als developer'](https://nldesignsystem.nl/meedoen/als-developer/overzicht) voor meer informatie.
 
 ### 6.3.5. Usability test
 
@@ -542,57 +541,56 @@ Een ander belangrijk punt om aan te stippen is dat sommige participanten op dit 
 
 **Formulier stap 4 (E 3/4):** Uw vraag is met succes verstuurd\
 ![Scherm E: formulier stap 4: Succesvol verstuurd pagina](.media/SchermE4.svg)\
-**Ontwerpadvies 8:** Uit het onderzoek blijkt dat dit scherm duidelijk was voor de participanten. Alle participanten viel het tekstblok 'Wat gaat er nu gebeuren' op en begrepen de vervolgstappen.
+**Bevinding:** Uit het onderzoek blijkt dat dit scherm duidelijk was voor de participanten. Alle participanten viel het tekstblok 'Wat gaat er nu gebeuren' op en begrepen de vervolgstappen.
 <div style="page-break-after: always"></div>
 
 Hieronder wordt eerst gekeken naar de Figma schermen van de Gmail omgeving voor het korte scenario (E_kort in de schematische weergave.):
 
 **Gmail inbox (niet ingelogd scenario):** Ontvangstbevestiging in de Inbox\
 ![Gmail inbox pagina](.media/E-mails_sc_kort.svg)\
-**Ontwerpadvies 9:** Uit het onderzoek bleek dat het onderwerp van de email duidelijk was. Verder geen opvallende bevindingen omdat dit buiten de scope van het onderzoek lag.
+**Bevinding:** Uit het onderzoek bleek dat het onderwerp van de email duidelijk was. Verder geen opvallende bevindingen omdat dit buiten de scope van het onderzoek lag.
 <div style="page-break-after: always"></div>
 
 **Gmail berichtdetail (niet ingelogd scenario):** Ontvangstbevestiging inhoud emailtje\
 ![Gmail ontvangst email details](.media/E-mail%20reactie_sc_kort.svg)\
-**Ontwerpadvies 10:** Uit het onderzoek bleek dat de onderverdeling in kopjes duidelijk was. Echter, in het korte scenario, waar een pdf als bijlage bijgevoegd was, leidde het tekstblok over waarom er geen linkjes in de email stonden tot verwarring. Ook verwachtte merendeel van de participanten het antwoord van de gemeente, en niet een ontvangstbevestiging. "Leuk, maar ik wil gewoon antwoord...".
+**Ontwerpadvies en suggesties voor vervolgonderzoek 8:** Uit het onderzoek bleek dat de onderverdeling van de tekst in kopjes duidelijk was. Echter, in het korte scenario, waar een pdf als bijlage bijgevoegd was, leidde het tekstblok over waarom er geen linkjes in de email stonden tot verwarring. Ook verwachtte merendeel van de participanten het antwoord van de gemeente, en niet een ontvangstbevestiging. "Leuk, maar ik wil gewoon antwoord...".
 <div style="page-break-after: always"></div>
 
 **Gmail PDF (niet ingelogd scenario):** Pdf met ingevulde gegevens\
 ![Gmail bijlage pdf](.media/PDFje_uit_de_mail.png)\
-**Ontwerpadvies 11:** Uit het onderzoek bleek dat de inhoud van de pdf goed leesbaar was met de schermlezer. Deze pdf is in Markdown gemaakt en geëxporteerd naar pdf. Ook hier verwachtte de participanten een antwoord van de gemeente en niet een kopie van de ingevoerde gegevens.
+**Bevindingen:** Uit het onderzoek bleek dat de inhoud van de pdf goed leesbaar was met de schermlezer. Deze pdf is in Markdown gemaakt en geëxporteerd naar pdf. Ook hier verwachtte de participanten een antwoord van de gemeente en niet een kopie van de ingevoerde gegevens.
 <div style="page-break-after: always"></div>
 
 Figma schermen met een nagebootste Gmail omgeving voor scenario E_lang:
 
 **Gmail inbox (wel ingelogd scenario):** Emailtje met "Reactie op uw vraag van de gemeente"\
 ![Gmail inbox](.media/E-mails_sc_lang.svg)\
-**Ontwerpadvies 12:** Het onderwerp van de email is duidelijk.
+**Bevindingen:** Het onderwerp van de email is duidelijk. Wederom werden de in kopjes verdeelde tekst gewaardeerd en goed begrepen. Het stappenplan was ook duidelijk voor de meeste participanten.
 <div style="page-break-after: always"></div>
 
 **Gmail berichtdetail (wel ingelogd scenario):** Een email met een een notificatie dat er een reactie van de gemeente in de MijnOmgeving staat.\
 ![Gmail ontvangst email details](.media/E-mail%20reactie_sc_lang.svg)\
-**Ontwerpadvies 13:** Uit het onderzoek bleek dat mensen het antwoord van de gemeente in de email verwachten. In dit scenario moeten ze echter inloggen in de MijnOmgeving.
+**Bevinding:** Uit het onderzoek bleek dat mensen het antwoord van de gemeente in de email verwachten. In dit scenario moeten ze echter inloggen in de MijnOmgeving.
 <div style="page-break-after: always"></div>
 
 **MijnOmgeving overzichtsscherm:** MijnOmgeving Overzicht-scherm waar een zaak klaarstaat.\
 ![MijnOmgeving Overzicht pagina](.media/LV_mijn-omgeving-dashboard_sc_lang.svg)\
-**Ontwerpadvies 14:** Merendeel van de participanten gaf aan een indicatie in het linker menu te verwachten, wat aangeeft waar ze de reactie kunnen vinden.
+**Ontwerpadvies en suggesties voor vervolgonderzoek 9:** Merendeel van de participanten gaf aan een indicatie in het linker menu te verwachten, wat aangeeft waar ze de reactie kunnen vinden. Uit vervolgonderzoek moet blijken of een indicatie, zoals bijvoorbeeld een rood bolletje duidelijk werkt. Echter moet nagegaan worden wat de impact is van een dergelijke indicatie, gezien het onderliggende zaaksysteem misschien wel veel meer indicaties kan aangeven. De ontwerpvraag is daarom, welke indicatie verdient een visuele plek en welke niet.
 <div style="page-break-after: always"></div>
 
 **MijnOmgeving Mijn zaken:** Overzicht van alle zaken, in dit geval maar een.\
 ![MijnOmgeving alle zaken](.media/LV_mijn-omgeving-dashboard_sc_lang-1.svg)\
-**Ontwerpadvies 15:** In het geval van dit onderzoek is er maar een zaak beschikbaar. Om grondiger onderzoek te doen naar de MijnOmgeving zal een meer gedetailleerd scenario uitgewerkt moeten worden. In dit onderzoek kwam naar voren dat alle participanten de reactie van de gemeente wisten te vinden.
+**Bevinding:** In het geval van dit onderzoek is er maar een zaak beschikbaar. Om grondiger onderzoek te doen naar de MijnOmgeving zal een meer gedetailleerd scenario uitgewerkt moeten worden. In dit onderzoek kwam naar voren dat alle participanten de reactie van de gemeente wisten te vinden.
 <div style="page-break-after: always"></div>
 
 **MijnOmgeving zaakdetail:** Scherm waarin de reactie van de gemeente te lezen is.\
 ![MijnOmgeving zaakdetails](.media/LV_mijn-omgeving-berichten_sc_lang.svg)\
-**Ontwerpadvies 16:** Uit dit onderzoek bleek dat de volgorde van het zaakdetailscherm verwarrend werkte. Zo staan de statussen van oud naar nieuw gesorteerd en de reacties (onderaan de pagina) van nieuw naar oud. Binnen een van de reacties staat de vraag van Jeroen van Drouwen bovenaan (oud) en de reactie van de gemeente eronder (nieuw). Ook scrolden sommige participanten niet ver genoeg naar beneden om de reactie uiteindelijk snel te kunnen vinden. Het merendeel van de participanten gaf aan dat ze niet veel geven om de Statussen maar juist om de reactie. Uit nader onderzoek moet blijken of een andere indeling minder verwarrend werkt.
+**Ontwerpadvies en suggesties voor vervolgonderzoek 10:** Uit dit onderzoek bleek dat de volgorde van het zaakdetailscherm verwarrend werkte. Zo staan de statussen van oud naar nieuw gesorteerd en de reacties (onderaan de pagina) van nieuw naar oud. Binnen een van de reacties staat de vraag van Jeroen van Drouwen bovenaan (oud) en de reactie van de gemeente eronder (nieuw). Ook scrolden sommige participanten niet ver genoeg naar beneden om de reactie uiteindelijk snel te kunnen vinden. Het merendeel van de participanten gaf aan dat ze niet veel geven om de statussen maar juist om de reactie. Uit nader onderzoek moet blijken of een andere indeling minder verwarrend werkt.
 
 **Overige bevindingen**\
 
 - Het wisselen tussen platforms (formulier/website gemeente voorbeeld, e-mail, MijnOmgeving) kan verwarrend zijn.
-- Men verwacht te kunnen reageren in de MijnOmgeving.
-- Het statusoverzicht in de MijnOmgeving is verwarrend.
+- Men verwacht te kunnen reageren in de MijnOmgeving, alsof het een chat is.
 - Waardering voor een overzichtelijke structuur en duidelijk aangegeven invoervelden.
 - Positieve reacties op autocomplete benadrukken het belang van tijdbesparende functies.
 
@@ -630,6 +628,7 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Handreiking implementatie Wet modernisering elektronisch bestuurlijk verkeer (Awb) 2023.](https://www.digitaleoverheid.nl/wp-content/uploads/sites/8/2017/04/Handreiking-implementatie-Wet-modernisering-elektronisch-bestuurlijk-verkeer-2023.pdf)
   
 - [Video - Kennissessie 1:  Juridisch Aspecten](https://youtu.be/7Vujk18JA-g)
+- [Video - Kennissessie 6: Digitale interactie over onder andere Generieke services](https://www.youtube.com/watch?v=m2x146aH9YM)
 - [Video's - VNG webinars en kennissessies](https://vng.nl/wmebv-webinars-en-kennissessies)
 - [Notificatie en Wmebv door Logius.](https://www.logius.nl/domeinen/interactie/mijnoverheid/wet-modernisering-elektronisch-bestuurlijk-verkeer)
 - [Video - Kennissessie 3: Zorgplicht](https://vng.nl/wmebv-webinars-en-kennissessies)
@@ -666,6 +665,8 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [Implementatiepilot Wet modernisering elektronisch bestuurlijk verkeer (Wmebv)](https://vng.nl/brieven/verslag-pilots-wetsvoorstel-wet-modernisering-elektronisch-bestuurlijk-verkeer-wmebv)
 - [VNG Wmebv Figma omgeving](https://www.figma.com/file/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?type=design&node-id=315%3A89&mode=design&t=OlU3fZjF6snJQaPk-1)
 - [Voor designers met NL Design System](https://nldesignsystem.nl/meedoen/als-designer/overzicht)
+- [richtlijnen voor het goed programmeren van formulieren](https://nldesignsystem.nl/richtlijnen/formulieren/overzicht)
+- [de Github voor gemeentevoorbeeld](https://github.com/frameless/gemeentevoorbeeld.nl)
 - [Voor developers met NL Design System](https://nldesignsystem.nl/meedoen/als-developer/overzicht)
 - [Omnichannel aanpak](https://vng.nl/omnichannel)
 - [Video - Kennissessie 2: Omnichannel](https://vng.nl/wmebv-webinars-en-kennissessies)
@@ -674,13 +675,10 @@ Kijk voor meer informatie over de Omnichannel strategie naar de video-opname van
 - [gebruikersonderzoeken.nl](https://gebruikersonderzoeken.nl/)
 - [Uitgewerkte ontwerpen van het generieke formulier in Figma.](https://www.figma.com/proto/iIr1gkAR3oZ0UFWKIni8Nv/VNG---WMEBV---Templates?page-id=1783%3A7195&type=design&node-id=1783-13018&viewport=2044%2C220%2C0.06&t=ZgGyDyuCmc73YbAh-1&scaling=min-zoom&starting-point-node-id=1783%3A13018&mode=design)
 - [Live demo van het geprogrammeerde generieke formulier](https://www.gemeentevoorbeeld.nl/wmebv)
-- [Over heldere communicatie](https://vng.nl/projecten/duidelijke-overheidscommunicatie)
+- [Over duidelijke communicatie](https://vng.nl/projecten/duidelijke-overheidscommunicatie)
 - [Stappenplan wet Wmebv](https://vng.nl/artikelen/stappenplan-wet-mebv)
 
-## 7.3. Interessante links
+## 7.3. Overige interessante links
 
-- <mark> 
-  VNG Wmebv website |
-  Forum Wmebv |
-  Kennissessie e-formulieren en notificaties |
-  </mark>
+- [Vng Wmebv](https://vng.nl/wmebv)
+- [VNG Forum - Praat mee!](https://vng.nl/artikelen/vng-forum)
