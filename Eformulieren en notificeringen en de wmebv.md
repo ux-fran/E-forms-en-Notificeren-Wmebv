@@ -5,6 +5,9 @@ _Auteur_\
 Francesca Vonk MSc - Senior UX Designer\
 Vereniging van Nederlandse Gemeenten
 
+Versie: 1.0\
+Datum: 1 december 2023
+
 # 2. Inhoudsopgave
 
 - [1. E-formulieren en notificeren en de Wmebv](#1-e-formulieren-en-notificeren-en-de-wmebv)
